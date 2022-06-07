@@ -1,0 +1,11 @@
+created: 20220607050534189
+creator: Lconfident
+field-direction: to
+field-type: list
+modified: 20220607050537217
+modifier: Lconfident
+tags: 
+title: $:/config/bimlas/locator/fields/tags
+type: text/vnd.tiddlywiki
+
+$:/plugins/bimlas/locator/field-templates/tag
