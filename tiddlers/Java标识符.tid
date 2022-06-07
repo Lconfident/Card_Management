@@ -1,9 +1,19 @@
 created: 20220607075303157
 creator: Lconfident
-modified: 20220607081009610
+difficulty: 5
+due: 20220609152650560
+grade: -1
+history: []
+interval: 0
+lapses: 0
+modified: 20220607152650560
 modifier: Lconfident
 page-cover: 
-tags: 卡片管理 JAVA
+reps: 1
+retrievability: 1
+review: 20220607152650560
+stability: 2
+tags: JAVA ?
 title: Java标识符
 type: text/vnd.tiddlywiki
 

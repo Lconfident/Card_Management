@@ -1,0 +1,20 @@
+color: #5a5353
+created: 20220607145354929
+creator: Lconfident
+difficulty: 5
+due: 20220609152658644
+grade: -1
+history: []
+interval: 0
+lapses: 0
+modified: 20220607154507243
+modifier: Lconfident
+reps: 1
+retrievability: 1
+review: 20220607152658644
+stability: 2
+tags: JAVA ?
+title: Java tips
+type: text/vnd.tiddlywiki
+
+''包名全部小写，类名首字母全部大写，常量全部大写并用下划线分隔，变量名采用驼峰命名法则。''

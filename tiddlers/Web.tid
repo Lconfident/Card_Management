@@ -1,0 +1,19 @@
+created: 20220607151942672
+creator: Lconfident
+difficulty: 4.4
+due: 20220609152602043
+grade: 2
+history: [{"due":"20220609152528542","interval":0,"difficulty":5,"stability":2,"retrievability":1,"grade":-1,"lapses":0,"reps":1,"review":"20220607152528542"},{"due":"20220609152557629","interval":0,"difficulty":5.2,"stability":2,"retrievability":1,"grade":1,"lapses":0,"reps":2,"review":"20220607152557629"}]
+interval: 0
+lapses: 0
+modified: 20220607153149322
+modifier: Lconfident
+reps: 3
+retrievability: 1
+review: 20220607152602043
+stability: 2
+tags: Web前端 ?
+title: Web
+type: text/vnd.tiddlywiki
+
+''__html ：超文本标记语言 + CSS ：层叠样式列表+ JavaScript ：基于应用场景的命令式语言__''

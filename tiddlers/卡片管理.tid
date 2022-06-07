@@ -1,12 +1,14 @@
+color: #3b72ba
 created: 20220607050730296
 creator: Lconfident
 icon: 🇾🇪
-modified: 20220607081103708
+modified: 20220607160128394
 modifier: Lconfident
 page-cover: https://source.unsplash.com/random
 tags: GettingStarted
 title: 卡片管理
 type: text/vnd.tiddlywiki
 
-! __''卡片知识管理系统''__
+! ''__卡片知识管理系统__''
+
 [img[v2-fc4f3c6f2c72b34379c5378de0b8bc1e_r.jpg]]
