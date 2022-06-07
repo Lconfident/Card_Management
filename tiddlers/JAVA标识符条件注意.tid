@@ -1,0 +1,15 @@
+created: 20220607080614385
+creator: Lconfident
+icon: 
+modified: 20220607081034185
+modifier: Lconfident
+page-cover: 
+tags: 卡片管理 JAVA
+title: JAVA标识符条件注意
+type: text/vnd.tiddlywiki
+
+''1. 关键字不能作为标识符''
+
+''2. 布尔常量（true/false）不能作为标识符''；
+
+''3. null不能作为标识符''；
