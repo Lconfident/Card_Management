@@ -1,6 +1,6 @@
 created: 20220608152625496
 creator: Lconfident
-modified: 20220608154330462
+modified: 20220608165204619
 modifier: Lconfident
 tags: GettingStarted 预计要做的事
 title: 快速创建新笔记按钮
@@ -37,6 +37,11 @@ type: text/vnd.tiddlywiki
 	<$button>
 		<$action-sendmessage $message="tm-new-tiddler" title="新任务~" tags="预计要做的事" text="" />
 	添加预计要做的事
+	</$button>
+	
+	<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="作业" tags="有关作业" text="" />
+	添加有关作业
 	</$button>
 
 </fieldset>

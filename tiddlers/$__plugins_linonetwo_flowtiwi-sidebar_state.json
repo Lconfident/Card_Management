@@ -91,6 +91,15 @@
             "static": false
         },
         {
+            "w": 1,
+            "h": 1,
+            "x": 0,
+            "y": 17,
+            "i": "$:/plugins/stobot/sticky/sidebar",
+            "moved": false,
+            "static": false
+        },
+        {
             "w": 2,
             "h": 2,
             "x": 0,

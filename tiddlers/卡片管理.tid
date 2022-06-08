@@ -2,8 +2,8 @@ color: #4341c3
 created: 20220607050730296
 creator: Lconfident
 icon: ⭐
-list: ''__卡片知识管理系统__'' ''快速新建'' ''TagCloud'' ''contribuutes in the last year''
-modified: 20220608160206278
+list: ''__卡片知识管理系统__'' ! ''主页访问'' ''快速新建'' ''TagCloud'' ''contribuutes in the last year''
+modified: 20220608162556819
 modifier: Lconfident
 page-cover: https://source.unsplash.com/random
 tags: GettingStarted
@@ -12,6 +12,8 @@ type: text/vnd.tiddlywiki
 
 {{徽章列表}}
 ! ''__卡片知识管理系统__''
+!! ''Flowus息流''
+[[Flowus|https://flowus.cn/lyfroot/d1500a3c-1738-4fde-9ee0-db09bb0f14fe]]
 
 !! ''快速新建''
 <<reuse-tiddler "快速创建新笔记按钮">>
