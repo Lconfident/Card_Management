@@ -5,6 +5,7 @@ dependents:
 description: TiddlyTables
 list: readme
 modified: 20191210060523145
+name: tables
 plugin-type: plugin
 title: $:/plugins/aaldrich/tables
 type: application/json
