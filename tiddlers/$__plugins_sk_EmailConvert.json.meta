@@ -1,0 +1,8 @@
+author: Stephen Kimmel
+description: Email Converter
+list: Email Convert List
+name: EmailConvert
+plugin-type: plugin
+title: $:/plugins/sk/EmailConvert
+type: application/json
+version: 0.0.4
