@@ -1,0 +1,42 @@
+created: 20220608152625496
+creator: Lconfident
+modified: 20220608154330462
+modifier: Lconfident
+tags: GettingStarted 预计要做的事
+title: 快速创建新笔记按钮
+type: text/vnd.tiddlywiki
+
+<fieldset>
+	<legend>快速添加</legend>
+
+	<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="xxx" text="""<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />""" tags="GettingStarted" />
+	在开始上添加新类别
+	</$button>
+
+	<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="Java~" tags="JAVA" text="!! " />
+	添加新JAVA
+	</$button>
+	
+	<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="C++~" tags="C++" text="!! " />
+	添加新C++
+	</$button>
+	
+		<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="算法~" tags="数据结构与算法" text="!! " />
+	添加新算法
+	</$button>
+	
+		<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="Web~" tags="Web前端" text="!! " />
+	添加新Web
+	</$button>
+	
+	<$button>
+		<$action-sendmessage $message="tm-new-tiddler" title="新任务~" tags="预计要做的事" text="" />
+	添加预计要做的事
+	</$button>
+
+</fieldset>
