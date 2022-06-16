@@ -1,10 +1,13 @@
 color: #16cce3
 created: 20220607143258050
 creator: Lconfident
-modified: 20220608165356624
+modified: 20220616033126086
 modifier: Lconfident
 tags: 卡片管理
 title: Python
 type: text/vnd.tiddlywiki
+wysiwyg: yes
 
-Python相关基础知识
+!! Python基础知识:
+
+'' ''[ext[|https://docs.python.org/3/tutorial/index.html]]
