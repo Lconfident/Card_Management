@@ -1,0 +1,9 @@
+created: 20220616113649497
+creator: Lconfident
+modified: 20220616113847011
+modifier: Lconfident
+tags: JAVA
+title: 包装类型
+type: text/vnd.tiddlywiki
+
+基本数据类型都有其对应的包装类型，相互转化由自动装箱与拆箱完成 

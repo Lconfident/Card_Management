@@ -1,0 +1,21 @@
+created: 20220616110935324
+creator: Lconfident
+modified: 20220616113641534
+modifier: Lconfident
+tags: JAVA
+title: 基本类型
+type: text/vnd.tiddlywiki
+
+* byte / 8
+* char / 16
+* short / 16
+* int		/ 32
+* float	/ 32
+* long / 64
+* double / 64
+* boolean / ~
+boolean 只有两个值：true和flase，可以使用1比特来存储，但是具体没有规定大小。
+
+JVM会在编译时期将Boolean类型数据转换为int类型，使用1来表示true，使用0来表示flase。
+
+JVM支持boolean数组，但是通过读写byte数组来实现的。
