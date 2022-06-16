@@ -2,7 +2,7 @@ color: #4341c3
 created: 20220607050730296
 creator: Lconfident
 icon: ⭐
-modified: 20220616064848593
+modified: 20220616065303529
 modifier: Lconfident
 page-cover: https://source.unsplash.com/random
 tags: GettingStarted
@@ -16,7 +16,7 @@ type: text/vnd.tiddlywiki
 
 <<reuse-tiddler "初步规划">>
 
-!!''ing''
+!!''Recent Doing''
 > 正在做的事
 <<reuse-tiddler "正在做的事">>
 
