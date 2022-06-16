@@ -2,30 +2,34 @@ color: #4341c3
 created: 20220607050730296
 creator: Lconfident
 icon: ⭐
-list: ''__卡片知识管理系统__'' ! ''主页访问'' ''快速新建'' ''TagCloud'' ''contribuutes in the last year''
-modified: 20220616045903631
+modified: 20220616064848593
 modifier: Lconfident
 page-cover: https://source.unsplash.com/random
 tags: GettingStarted
 title: 卡片管理
 type: text/vnd.tiddlywiki
 
-{{徽章列表}}
+! ''知识管理系统''
 
-! ''__卡片知识管理系统__''
+!! ''优先代办事项''
+> 初步规划
 
-!! ''__Flowus息流__''
+<<reuse-tiddler "初步规划">>
 
-[ext[Flowus息流|https://flowus.cn/lyfroot/d1500a3c-1738-4fde-9ee0-db09bb0f14fe]]
+!!''ing''
+> 正在做的事
+<<reuse-tiddler "正在做的事">>
 
-!! ''__快速新建__''
+!! <center>''快速新建''</center>
+
+''/访问：<center>[ext[Flowus息流|https://flowus.cn/lyfroot/d1500a3c-1738-4fde-9ee0-db09bb0f14fe]]</center>''
 
 <<reuse-tiddler 快速创建新笔记按钮>>
 
-!! ''__TagCloud__''
+!! /''TagCloud''
 
 <$echarts $tiddler="$:/plugins/Gk0Wk/echarts/addons/TagCloud.js"/>
 
-!! ''__contribuutes in the last year__''
+!! ''/contribuutes in the this year''
 
 <$echarts $tiddler="$:/plugins/Gk0Wk/echarts/addons/oflg/CalendarHeatmap.js" $height="150px" />
