@@ -1,0 +1,22 @@
+created: 20220616114229095
+creator: Lconfident
+modified: 20220616122315274
+modifier: Lconfident
+tags: JAVA
+title: 缓冲池
+type: text/vnd.tiddlywiki
+
+new Integer(123) 与 Integer.valueOf(123) 的区别在于： 
+
+* new Integer(123) 每次都会创建一个新对象
+* Integer.valueOf(123) 会使用缓冲池中的对象，多次调用会取得对同一个对象的引用
+```
+Integer x = new Integer(123);
+Integer y = new Integer(123);
+System.out.println(x == y);		// false
+Integer z = Integer.valueOf(123);
+Integer k = Integer.valueOf(123);
+System.out.println(z == k);		//true
+```
+
+java8中，Integer缓冲池的大小默认为-128——127。

@@ -1,0 +1,13 @@
+created: 20220616122323813
+creator: Lconfident
+modified: 20220616132938239
+modifier: Lconfident
+tags: JAVA
+title: String
+type: text/vnd.tiddlywiki
+
+String被声明为final，因此她不可继承。（Integer等包装类不能被继承）
+
+Java8中，String内部使用char数组存储数据。
+
+Java9之后，String改用byte数组存储字符串，同时使用coder来标识使用了哪种编码。

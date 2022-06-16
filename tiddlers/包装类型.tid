@@ -1,9 +1,14 @@
 created: 20220616113649497
 creator: Lconfident
-modified: 20220616113847011
+modified: 20220616114207575
 modifier: Lconfident
 tags: JAVA
 title: 包装类型
 type: text/vnd.tiddlywiki
 
-基本数据类型都有其对应的包装类型，相互转化由自动装箱与拆箱完成 
+基本数据类型都有其对应的包装类型，相互转化由自动装箱与拆箱完成
+
+```
+Integer x=2;		// 装箱 调用了 Integer.valueOf(2)
+int y = x;			// 拆箱 调用了 x.intValue()
+```

@@ -1,6 +1,6 @@
 created: 20220608152625496
 creator: Lconfident
-modified: 20220608165204619
+modified: 20220616122444736
 modifier: Lconfident
 tags: GettingStarted 预计要做的事
 title: 快速创建新笔记按钮
@@ -15,22 +15,22 @@ type: text/vnd.tiddlywiki
 	</$button>
 
 	<$button>
-		<$action-sendmessage $message="tm-new-tiddler" title="Java~" tags="JAVA" text="!! " />
+		<$action-sendmessage $message="tm-new-tiddler" title="Java~" tags="JAVA" text="" />
 	添加新JAVA
 	</$button>
 	
 	<$button>
-		<$action-sendmessage $message="tm-new-tiddler" title="C++~" tags="C++" text="!! " />
+		<$action-sendmessage $message="tm-new-tiddler" title="C++~" tags="C++" text="" />
 	添加新C++
 	</$button>
 	
 		<$button>
-		<$action-sendmessage $message="tm-new-tiddler" title="算法~" tags="数据结构与算法" text="!! " />
+		<$action-sendmessage $message="tm-new-tiddler" title="算法~" tags="数据结构与算法" text="" />
 	添加新算法
 	</$button>
 	
 		<$button>
-		<$action-sendmessage $message="tm-new-tiddler" title="Web~" tags="Web前端" text="!! " />
+		<$action-sendmessage $message="tm-new-tiddler" title="Web~" tags="Web前端" text="" />
 	添加新Web
 	</$button>
 	

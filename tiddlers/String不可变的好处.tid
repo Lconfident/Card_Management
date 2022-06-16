@@ -1,0 +1,10 @@
+created: 20220616132941648
+creator: Lconfident
+modified: 20220616133745600
+modifier: Lconfident
+tags: String JAVA
+title: String不可变的好处
+type: text/vnd.tiddlywiki
+
+1. 可以缓存Hash值
+
