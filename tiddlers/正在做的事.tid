@@ -1,12 +1,21 @@
 color: #8094f4
 created: 20220608080444684
 creator: Lconfident
-modified: 20220616035527239
+modified: 20220617133414618
 modifier: Lconfident
 tags: 卡片管理
 title: 正在做的事
 type: text/vnd.tiddlywiki
 
+-ing
+
+|! Java| ! new String ("abc") |
+|! C++|!待办|
+|! 数据结构与算法| !待办 |
+|! 计算机速成课 | !待办 |
+
+
+----
 !!当前的工作
 * ''不断添加Java卡片''
 * ''保持图书馆CLASS ART的间断输出''

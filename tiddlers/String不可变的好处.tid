@@ -1,10 +1,26 @@
 created: 20220616132941648
 creator: Lconfident
-modified: 20220616133745600
+modified: 20220617133427479
 modifier: Lconfident
 tags: String JAVA
 title: String不可变的好处
 type: text/vnd.tiddlywiki
 
-1. 可以缓存Hash值
+1. ''可以缓存Hash值''
 
+因为String的Hash值经常被引用，例如String用作HashMap的key，不可变的特性可以使得hash值也可以保持不可变，因此只需要进行一次计算。
+
+2. ''String Pool 的需要''
+
+String Pool 是堆空间中专门开辟出的一块空间用于存放字符串常量池。
+
+如果一个 String 对象已经被创建过了，那么就会从 String Pool 中取得引用。只有 String 是不可变的，
+才可能使用 String Pool。
+
+3. ''安全性''
+
+String 经常作为参数，String 不可变性可以保证参数不可变。
+
+4. ''线程安全''
+
+String 不可变性天生具备线程安全，可以在多个线程中安全地使用。

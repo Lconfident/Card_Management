@@ -1,0 +1,18 @@
+created: 20220617125317350
+creator: Lconfident
+modified: 20220617125737094
+modifier: Lconfident
+tags: String JAVA
+title: String、StringBuffer and StringBuider
+type: text/vnd.tiddlywiki
+
+1. ''可变性''
+
+* String 不可变
+* StringBuffer 和 StringBuilder 可变
+
+2. ''线程安全''
+
+* String 不可变，因此线程是安全的
+* StringBuffer 是线程安全的，内部使用 synachronized 进行同步
+* StringBuilder 不是线程安全的
