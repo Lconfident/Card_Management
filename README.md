@@ -1,2 +1,2 @@
 ## 卡片知识管理
-![image](https://raw.githubusercontent.com/Lconfident/wiki/main/Pictures/14fe91e80e4598fc1d37bfdc7e50150.jpg)
+![image](https://github.com/Lconfident/Pictures/blob/main/7b7cce2336615b9a50117da046268f3.jpg)
