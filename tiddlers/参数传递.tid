@@ -1,0 +1,67 @@
+created: 20220621021955205
+creator: Lconfident
+modified: 20220621025430002
+modifier: Lconfident
+tags: JAVA
+title: 参数传递
+type: text/vnd.tiddlywiki
+
+Java的参数是以''值传递''的形式传入方法中的，而不是''引用形式''
+
+```java
+public class Dog {
+	String name;
+	Dog(String name) {
+		this.name = name;
+	}
+	String getName() {
+		return this.name;
+	}
+	void setName(String name) {
+		this.name = name;
+	}
+	String getObjectAddress() {
+		return super.toString();
+	}
+}
+
+class PassByValueExample {
+	public static void main(String[] args) {
+		Dog dog = new Dog("A");
+		func(dog);
+		System.out.println(dog.getName());	//B
+	}
+private static void func(Dog dog) {
+		dog.setName("B");
+	}
+}
+```
+
+代码中 Dog dog 的'' dog ''是一个''指针''，存储的是''__对象的地址__''。
+
+在将一个参数传入一个方法时，本质上是将对象的地址''以值的方式''传递到形参中。
+
+此处在''方法中改变对象的字段值''会改变原对象该字段值，因为引用的是同一个对象。
+
+---
+但是在方法中将指针引用了其它对象，那么此时''方法里''和''方法外''的两个指针指向了''不同的对象''，
+
+在一个指针改变其所指向对象的内容对另一个指针所指向的对象''没有''影响。
+
+```java
+public class PassByValueExample {
+	public static void main(String[] args) {
+		Dog dog = new Dog("A");
+		System.out.println(dog.getObjectAddress());	//Dog@4554617c
+		func(dog);
+		System.out.println(dog.getObjectAddress());	//Dog@4554617c
+		System.out.println(dog.getName());	// A
+	}
+private static void func(Dog dog) {
+	System.out.println(dog.getObjectAddress());	//Dog@4554617c
+	dog = new Dog("B");
+	System.out.println(dog.getObjectAddress());	//Dog@74a14482
+	System.out.println(dog.getName());	// B
+	}
+}
+```

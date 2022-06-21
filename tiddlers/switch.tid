@@ -1,0 +1,25 @@
+created: 20220621031417581
+creator: Lconfident
+modified: 20220621031730712
+modifier: Lconfident
+tags: JAVA
+title: switch
+type: text/vnd.tiddlywiki
+
+从java7开始，switch条件判断语句中使用String对象
+
+```java
+		String s = "a";
+		switch (s) {
+			case	"a":
+				System.out.println("aaa");
+				break;
+			case	"b":
+				System.out.println("bbb");
+				break;
+		}
+```
+
+switch ''不支持'' long、float、double，这是因为 switch 的设计初衷是对那些只有少数几个值的类型进行等值判断，
+
+如果值过于复杂，那么还是用 if 比较合适。

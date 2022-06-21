@@ -1,13 +1,12 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220618142101325
+modified: 20220621021843726
 modifier: Lconfident
 tags: 卡片管理
 title: 初步规划
 type: text/vnd.tiddlywiki
 
 |! 规划|!内容|
-|!Git| ![[Git指令详解|https://mp.weixin.qq.com/s/HLEifr_cuDlZpc2pxTN-PA]] |
 |! Java卡片制作| ![[阅读Github优秀Java总结|https://www.aliyundrive.com/drive/folder/62aaa0eea45ceaef5c834a8e84d3066e70d679cd]] |
 |! C++学习| !学习笔记及卡片制作 |
 |! 数据结构与算法学习|![[程序员必须掌握的算法|https://www.zhihu.com/question/23148377/answer/907915556]] [[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]]|

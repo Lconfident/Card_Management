@@ -1,0 +1,17 @@
+created: 20220621025806446
+creator: Lconfident
+modified: 20220621030207607
+modifier: Lconfident
+tags: JAVA
+title: float与double
+type: text/vnd.tiddlywiki
+
+java 不能执行隐式转换，因为这会使精度降低
+
+''1.1''字面量属于''double''类型，不能直接将1.1赋值给float变量，这位这是向下转型
+
+```java
+// float a = 1.1 ;
+float f = 1.1f ;
+```
+''1.1f''字面量才是''float''类型

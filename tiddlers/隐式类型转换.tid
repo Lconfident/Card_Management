@@ -1,0 +1,22 @@
+created: 20220621030233887
+creator: Lconfident
+modified: 20220621031154440
+modifier: Lconfident
+tags: JAVA
+title: 隐式类型转换
+type: text/vnd.tiddlywiki
+
+```java
+int s1 = 1;
+// s1 = s1 + 1;
+```
+因为字面量''1''是''int''类型，它比''short''类型精度要高，因此不能隐式地将int类型向下转型为short类型
+
+但是使用''+=''或''++''运算会执行隐式类型转换
+
+```java
+s1 += 1 ;
+s1 ++ ;
+```
+
+上面的语句相当于``s1 = (short) (s1 + 1);
