@@ -1,8 +1,18 @@
 created: 20220616113649497
 creator: Lconfident
-modified: 20220616114207575
+difficulty: 5
+due: 20220623041636697
+grade: -1
+history: []
+interval: 0
+lapses: 0
+modified: 20220621041636697
 modifier: Lconfident
-tags: JAVA
+reps: 1
+retrievability: 1
+review: 20220621041636697
+stability: 2
+tags: JAVA ?
 title: 包装类型
 type: text/vnd.tiddlywiki
 
