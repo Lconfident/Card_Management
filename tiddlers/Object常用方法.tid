@@ -1,0 +1,38 @@
+created: 20220623085338033
+creator: Lconfident
+modified: 20220623100721410
+modifier: Lconfident
+tags: JAVA
+title: Object常用方法
+type: text/vnd.tiddlywiki
+
+''equals()''
+
+1. 等价关系
+
+两个对象具有等价关系，需要满足一下五个条件
+
+Ⅰ自反性
+
+`x.equals(x);		//true`
+
+Ⅱ对称性
+
+`x.equals(y) = y.equals(x);`
+
+Ⅲ传递性
+
+`if (x.equals(y) == y.equals(z))
+	x.equals(z);                 `
+
+Ⅳ一致性
+
+多次调用equals（）方法结果不变
+
+```
+x.equals(y) = x.equals(y);
+```
+
+Ⅴ与null的比较
+
+对任何不是null的对象x调用s.equals(null)结果都为false

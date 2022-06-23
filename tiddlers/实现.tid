@@ -1,0 +1,12 @@
+created: 20220623091214761
+creator: Lconfident
+modified: 20220623091606011
+modifier: Lconfident
+tags: Object常用方法 JAVA equals
+title: 实现
+type: text/vnd.tiddlywiki
+
+* 检查是否是同一个对象的引用，如果是直接返回true
+* 检查是否是同一个类型，如果不是，直接返回false
+* 将Object对象进行转型
+* 判断每个关键域是否相等

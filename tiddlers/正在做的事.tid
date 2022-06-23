@@ -1,7 +1,7 @@
 color: #8094f4
 created: 20220608080444684
 creator: Lconfident
-modified: 20220622123015366
+modified: 20220623102837778
 modifier: Lconfident
 tags: 卡片管理
 title: 正在做的事
@@ -9,8 +9,8 @@ type: text/vnd.tiddlywiki
 
 -ing
 
-| ! Java | ! Object通用方法|
-|! C++|!跟视频|
+| ! Java | ! 重写与重载|
+|! C++|!第二章|
 | ! 数据结构与算法 | !待办 |
 | ! 计算机速成课 | !待办 |
 

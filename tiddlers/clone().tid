@@ -1,0 +1,18 @@
+created: 20220623092051091
+creator: Lconfident
+modified: 20220623100705749
+modifier: Lconfident
+tags: Object常用方法
+title: clone()
+type: text/vnd.tiddlywiki
+
+1. cloneable
+
+clone()是Object的protected方法，它不是public，一个类不去显式去重写clone（）方法，其他类就不能直接去调用该类实例的clone（）方法
+
+2. 浅拷贝
+
+3. 深拷贝
+
+详情见Java笔记
+
