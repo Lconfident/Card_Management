@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220622123550645
+modified: 20220623233417666
 modifier: Lconfident
 tags: 卡片管理
 title: 初步规划
@@ -8,6 +8,6 @@ type: text/vnd.tiddlywiki
 
 |! 规划|!内容|
 |! Java卡片制作| ![[阅读Github优秀Java总结|https://www.aliyundrive.com/drive/folder/62aaa0eea45ceaef5c834a8e84d3066e70d679cd]] |
-|! C++学习| ! [[清华|https://www.xuetangx.com/learn/THU08091000247/THU08091000247/10322314/video/17397620?channel=i.area.course_list_all]] |
-|! 数据结构与算法学习|![[程序员必须掌握的算法|https://www.zhihu.com/question/23148377/answer/907915556]] [[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]]|
+|! C++学习| ! [[清华|https://www.xuetangx.com/learn/THU08091000247/THU08091000247/10322314/video/17397620?channel=i.area.course_list_all]] [[C++Prime|https://www.aliyundrive.com/drive/folder/62aa9ff771a3028f21234b9ca5be1d3ea9b8e05a]] |
+|! 数据结构与算法学习|![[程序员必须掌握的算法|https://www.zhihu.com/question/23148377/answer/907915556]] [[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]] [[挑战算法设计竞赛|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]]|
 |!计算机速成课|! [[速成课|https://www.bilibili.com/video/av21376839?vd_source=4fe602163e123a42d52b1a7672e94c9a]]|
