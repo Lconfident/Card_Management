@@ -1,0 +1,17 @@
+created: 20220624110324907
+creator: Lconfident
+modified: 20220624110806884
+modifier: Lconfident
+tags: 对象操作 [[Java IO]] JAVA
+title: 序列化
+type: text/vnd.tiddlywiki
+
+序列化就是将一个对象转化为字节序列，方便存储和运输
+
+*序列化:
+ObjectOutputStream.writeOject()
+
+* 反序列化
+ObjectInputStream.readObject()
+
+> 不对静态变量进行序列化，因为序列化只是为了保存对象的状态，静态变量属于类的状态

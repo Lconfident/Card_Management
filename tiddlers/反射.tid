@@ -1,0 +1,19 @@
+created: 20220624070250191
+creator: Lconfident
+modified: 20220624085058934
+modifier: Lconfident
+tags: JAVA
+title: 反射
+type: text/vnd.tiddlywiki
+
+每个类都有一个Class对象，包含了与类有关的信息。当编译一个新类时，会产生一个同名的.class文件，该文件内容保存着Class对象
+
+类加载相当于Class对象的加载，类在第一次使用时加载到JVM中。
+
+反射可以提供运行时的类信息，并且这个类可以在运行时才加载进来，甚至在编译时期该类的.class不存在时也可以加载进来
+
+Class和java.lang.reflect一起对反射提供了支持，java.lang.reflect类库主要包含了以下三个类：
+
+* Field：可以使用get（）和set（）方法读取和修改Field对象关联的字段
+* Method：可以使用invoke（）方法调用与Method对象关联的方法
+* Constructor：可以用Constructor的newInstance（）创建新的对象

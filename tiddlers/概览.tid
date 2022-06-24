@@ -1,0 +1,16 @@
+created: 20220624091439302
+creator: Lconfident
+modified: 20220624091720778
+modifier: Lconfident
+tags: [[Java IO]] JAVA
+title: 概览
+type: text/vnd.tiddlywiki
+
+；Java的I/O大概可以分为一下几类：
+
+* 磁盘操作：File
+* 字节操作：InputStream 和 OutputStream
+* 字符操作：Reader 和 Wreiter
+* 对象操作：Serializable
+* 网络操作：Socket
+* 新的输入/输出：NIO

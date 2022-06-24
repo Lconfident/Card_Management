@@ -1,0 +1,19 @@
+created: 20220624085800237
+creator: Lconfident
+modified: 20220624090039702
+modifier: Lconfident
+tags: JAVA
+title: 泛型
+type: text/vnd.tiddlywiki
+
+```java
+public class Box<t>{
+		private T t;
+		public void set(T t){
+		this.t = t;
+		}
+		public T get(){
+		return t;
+		}
+}
+```

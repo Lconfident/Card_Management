@@ -1,0 +1,26 @@
+created: 20220624105751635
+creator: Lconfident
+modified: 20220624110135154
+modifier: Lconfident
+tags: 字符操作 JAVA [[Java IO]]
+title: Reader 与 Writer
+type: text/vnd.tiddlywiki
+
+不管是磁盘还是网络传输，最小的存储单元都是字节，而不是字符，但是在程序中操作的通常是字符形式的数据，因此需要对字符进行操作的方法。
+
+''实现逐行输出文本文件的内容''
+
+```java
+public static void readFileContent(String filePath) throws IOException {
+	FileReader fileReader = new FileReader(filePath);
+	BufferedReader bufferedReader = new BufferedReader(fileReader);
+	String line;
+	while ((line = bufferedReader.readLine()) != null) {
+		System.out.println(line);
+	}
+	// 装饰者模式使得 BufferedReader 组合了一个 Reader 对象
+	// 在调用 BufferedReader 的 close() 方法时会去调用 Reader 的 close() 方法
+	// 因此只要一个 close() 调用即可
+	bufferedReader.close();
+}
+```

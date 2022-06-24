@@ -1,0 +1,11 @@
+created: 20220624110228250
+creator: Lconfident
+modified: 20220624110323457
+modifier: Lconfident
+tags: [[Java IO]] JAVA
+title: 对象操作
+type: text/vnd.tiddlywiki
+
+* 序列化
+* Serializable
+* transient

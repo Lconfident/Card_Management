@@ -1,0 +1,26 @@
+created: 20220624091725727
+creator: Lconfident
+modified: 20220624092533165
+modifier: Lconfident
+tags: [[Java IO]] JAVA
+title: 磁盘操作
+type: text/vnd.tiddlywiki
+
+''File类''可以用于表示文件和目录的信息，但是它不表示文件的内容
+
+递归列出一个目录下的所欲文件名：
+
+```java
+public static void listAllFiles(File dir){
+	if (dir == null || !dir.exits(){
+		return;
+	}
+	if (dir.isFile()){
+		System.out.println(dir.getName());
+		return;
+	}
+	for (File file : dir.listFiles()){
+		listAllFiles(file);
+	}
+}
+```
