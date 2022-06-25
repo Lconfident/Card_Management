@@ -1,0 +1,12 @@
+created: 20220625035024851
+creator: Lconfident
+modified: 20220625035347240
+modifier: Lconfident
+tags: Java容器 JAVA
+title: Java容器概览
+type: text/vnd.tiddlywiki
+
+容器主要包括Collection和Map两种，Collection存储着对象的集合，而Map存储着键值对（两个对象）的映射表
+
+* Collection
+* Map

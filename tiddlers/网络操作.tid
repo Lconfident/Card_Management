@@ -1,0 +1,56 @@
+created: 20220625033331118
+creator: Lconfident
+modified: 20220625034242408
+modifier: Lconfident
+tags: JAVA [[Java IO]]
+title: 网络操作
+type: text/vnd.tiddlywiki
+
+Java 中的网络支持：
+
+* InetAddress：用于表示网络上的硬件资源，即 IP 地址；
+* URL：统一资源定位符；
+* Sockets：使用 TCP 协议实现网络通信；
+* Datagram：使用 UDP 协议实现网络通信。
+
+''InetAddress''
+
+没有共有的构造函数，只能通过静态方法来创建实例
+
+```java
+	InetAddress.getByName(String host);
+	InetAddress.getByAddress(byte[] address);
+```
+
+''URL''
+
+可以直接从URL读取数据
+
+```java
+public static void main(String[] args) throws IOException {
+	URL url = new URL("http://www.baidu.com");
+	/* 字节流 */
+	InputStream is = url.openStream();
+	/* 字符流 */
+	InputStreamReader isr = new InputStreamReader(is, "utf-8");
+	/* 提供缓存功能 */
+	BufferedReader br = new BufferedReader(isr);
+	String line;
+	while ((line = br.readLine()) != null) {
+		System.out.println(line);
+	}
+	br.close();
+}
+```
+
+''Sockets''
+
+* ServerSocket:服务器端类
+* Socket：客户段类
+* 服务器和客户段通过InputStream和OutputStream进行输入输出
+
+''Datagram''
+
+* DatagramSocket：通信类
+* DatagramPacket：数据包类
+

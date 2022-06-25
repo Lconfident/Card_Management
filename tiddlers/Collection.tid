@@ -1,0 +1,25 @@
+created: 20220625035148886
+creator: Lconfident
+modified: 20220625052028747
+modifier: Lconfident
+tags: Java容器概览
+title: Collection
+type: text/vnd.tiddlywiki
+
+[[Collection集合一图全览|https://github.com/Lconfident/Pictures/blob/main/%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/Snipaste_2022-06-25_11-58-44.png]]
+
+1. ''Set''
+
+* TreeSet：基于红黑树实现，支持有序操作，例如根据一个范围查找一个元素的操作。但是查找效率不如HashSet，HashSet查找的时间复杂度为O(1),TreeSet查找的时间复杂度为O(logN)
+* HashSet：基于哈希表实现，支持快速查找，但不支持有序性操作。并且失去了元素的插入顺序功能，也就是说使用Iterator遍历HashSet的得到的结果是不确定的
+
+2. ''List''
+
+* ArrayList：基于动态数组实现，支持随机访问
+* Vector：和ArrayList类似，但它是线程安全的
+* LinkedList：基于双向链表实现的，只能顺序访问，但是可以快速插入和删除元素。不仅如此，LinkedList还可以用作栈、队列和双向队列
+
+3. Queue
+
+* LinkedList：可以实现双向队列
+* PriorityQueue：基于对结构实现，可以用它来实现优先队列

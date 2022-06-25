@@ -1,0 +1,23 @@
+created: 20220625052855454
+creator: Lconfident
+modified: 20220625080124020
+modifier: Lconfident
+tags: 容器中的设计模式
+title: 迭代器模式
+type: text/vnd.tiddlywiki
+
+[[迭代器一图全览|https://github.com/Lconfident/Pictures/blob/main/%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/S
+
+Collection继承了Iterable接口，其中的iterator（）方法能够产生一个Iterator对象，通过这个对象就可以迭代遍历Collection中的元素
+
+从 JDK 1.5 之后可以使用 foreach 方法来遍历实现了 Iterable 接口的聚合对象。
+
+
+```java
+List<String> list = new ArrayList<>();
+list.add("a");
+list.add("b");
+for (String item : list) {
+System.out.println(item);
+}
+```

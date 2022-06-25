@@ -1,0 +1,10 @@
+created: 20220625052816845
+creator: Lconfident
+modified: 20220625052853899
+modifier: Lconfident
+tags: Java容器 JAVA
+title: 容器中的设计模式
+type: text/vnd.tiddlywiki
+
+* 迭代器模式
+* 适配器模式

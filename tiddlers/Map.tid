@@ -1,0 +1,14 @@
+created: 20220625052351424
+creator: Lconfident
+modified: 20220625052721990
+modifier: Lconfident
+tags: Java容器概览
+title: Map
+type: text/vnd.tiddlywiki
+
+[[Map集合一图全览|https://github.com/Lconfident/Pictures/blob/main/%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/Snipaste_2022-06-25_13-20-42.png]]
+
+* TreeMap：基于红黑树的实现
+* HashMap：基于哈希表实现
+* HashTable：和HashMap一样，但他是线程安全的
+* LinkedHashMap：使用双向量表来维护元素的顺序，顺序为插入顺序或最近最少使用（LRU）顺序

@@ -1,0 +1,26 @@
+created: 20220625080127547
+creator: Lconfident
+modified: 20220625080338239
+modifier: Lconfident
+tags: 容器中的设计模式
+title: 适配器模式
+type: text/vnd.tiddlywiki
+
+java.util.Arrays#asList() 可以把数组类型转换为 List 类型。
+
+```java
+@SafeVarargs
+public static <T> List<T> asList(T... a)
+```
+
+应该注意的是 asList() 的参数为泛型的变长参数，不能使用基本类型数组作为参数，只能使用相应的包装类型数组。
+
+```java
+Integer[] arr = {1, 2, 3};
+List list = Arrays.asList(arr);
+```
+
+```java
+也可以使用以下方式调用 asList()：
+List list = Arrays.asList(1, 2, 3);
+```
