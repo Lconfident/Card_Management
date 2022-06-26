@@ -1,0 +1,21 @@
+created: 20220626013728569
+creator: Lconfident
+modified: 20220626013947594
+modifier: Lconfident
+tags: 源码分析 JAVA
+title: LinkedList
+type: text/vnd.tiddlywiki
+
+!!概览
+
+基于双向链表实现，使用 Node 存储链表节点信息。
+
+每个链表存储了 first 和 last 指针：
+
+!! 与 ArrayList 的比较
+
+ArrayList 基于动态数组实现，LinkedList 基于双向链表实现。ArrayList 和 LinkedList 的区别可以归结为''数组和链表''的区别：
+
+* 数组支持随机访问，但插入删除的代价很高，需要移动大量元素；
+
+* 链表不支持随机访问，但插入删除只需要改变指针。

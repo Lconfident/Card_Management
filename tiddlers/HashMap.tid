@@ -1,0 +1,98 @@
+created: 20220626013952661
+creator: Lconfident
+modified: 20220626022050848
+modifier: Lconfident
+tags: 源码分析 JAVA
+title: HashMap
+type: text/vnd.tiddlywiki
+
+为方便理解，以JDK1.7为主
+
+!!存储结构
+
+内部包含了一个 Entry 类型的数组 table。Entry 存储着键值对。它包含了四个字段，从 next 字段我们
+可以看出 Entry 是一个链表。即数组中的每个位置被当成一个桶，一个桶存放一个链表。HashMap 
+使用拉链法来解决冲突，同一个链表中存放哈希值和散列桶取模运算结果相同的 Entry。
+
+!!拉链法的工作原理
+```java
+HashMap<String, String> map = new HashMap<>();
+map.put("K1", "V1");
+map.put("K2", "V2");
+map.put("K3", "V3");
+```
+
+* 新建一个HashMap，默认大小为16
+* 插入<K1,V1>键值对，先计算K1的hashCode为115，使用除留余数法得到所在的桶下标115%16=3
+* 插入 <K2,V2> 键值对，先计算 K2 的 hashCode 为 118，使用除留余数法得到所在的桶下标118%16=6。
+*插入 <K3,V3> 键值对，先计算 K3 的 hashCode 为 118，使用除留余数法得到所在的桶下标118%16=6，插在 <K2,V2> 前面。
+
+应该注意到链表的插入是以头插法方式进行的，例如上面的 <K3,V3> 不是插在 <K2,V2> 后面，而是插入在链表头部。
+
+查找需要分成两步进行：
+
+* 计算键值对所在的桶；
+* 在链表上顺序查找，时间复杂度显然和链表的长度成正比。
+
+!!put操作
+
+HashMap 允许插入键为 null 的键值对。
+
+但是因为无法调用 null 的 hashCode() 方法，也就无法确定该键值对的桶下标，只能通过强制指定一个桶下标来存放。HashMap 使用第 0 个桶存放键为 null 的键值对。
+
+使用链表的头插法，也就是新的键值对插在链表的头部，而不是链表的尾部
+
+!!确定桶下标
+
+很多操作都需要先确定一个键值对所在的桶下标。
+
+```java
+int hash = hash(key);
+int i = indexFor(hash, table.length);
+```
+
+ * 计算 hash 值
+ * 取模
+ *确定桶下标的最后一步是将 key 的 hash 值对桶个数取模：hash%capacity，如果能保证 capacity 为 2的 n 次方，那么就可以将这个操作转换为位运算。
+ 
+!!扩容-基本原理
+
+设 HashMap 的 table 长度为 M，需要存储的键值对数量为 N，如果哈希函数满足均匀性的要求，那么每条链表的长度大约为 N/M，因此查找的复杂度为 O(N/M)。
+
+为了让查找的成本降低，应该使 N/M 尽可能小，因此需要保证 M 尽可能大，也就是说 table 要尽可能大。HashMap 采用动态扩容来根据当前的 N 值来调整 M 值，使得空间效率和时间效率都能得到保证。
+
+|!参数 | !含义 |
+|!capacity | table的容量大小，默认为16，capacity必须保证为2的n次方|
+| !size | 键值对数量  |
+|!threshold | size的临界值，当size大于等于threshold就必须及逆行扩容操作 |
+| !loadFactor| 装载因子，table能够使用的比例，threshold = (int) (capacity*loadFactor) |
+
+!!扩容-重新计算桶下标
+
+在进行扩容时，需要把键值对重新计算桶下标，从而放到对应的桶上。在前面提到，HashMap 使用hash%capacity 来确定桶下标。HashMap capacity 为 2 的 n 次方这一特点能够极大降低重新计算桶下
+标操作的复杂度。
+
+假设原数组长度 capacity 为 16，扩容之后 new capacity 为 32：
+
+```
+capacity : 00010000
+new capacity : 00100000
+```
+
+对于一个 Key，它的哈希值 hash 在第 5 位：
+* 为 0，那么 hash%00010000 = hash%00100000，桶位置和原来一致；
+* 为 1，hash%00010000 = hash%00100000 + 16，桶位置是原位置 + 16。
+
+!!计算数组容量
+
+HashMap 构造函数允许用户传入的容量不是 2 的 n 次方，因为它可以自动地将传入的容量转换为 2 的 n 次方。
+
+!!链表转红黑树
+
+从 JDK 1.8 开始，一个桶存储的链表长度大于等于 8 时会将链表转换为红黑树。
+
+!!与 Hashtable 的比较
+* Hashtable 使用 synchronized 来进行同步。
+* HashMap 可以插入键为 null 的 Entry。
+* HashMap 的迭代器是 fail-fast 迭代器。
+* HashMap 不能保证随着时间的推移 Map 中的元素次序是不变的。
