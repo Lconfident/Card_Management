@@ -2,30 +2,23 @@ color: #8484ae
 created: 20220607050730296
 creator: Lconfident
 icon: ⭐
-modified: 20220628104716944
+modified: 20220628111719314
 modifier: Lconfident
 page-cover: https://source.unsplash.com/random
 tags: 
 title: 知识管理系统
 type: text/vnd.tiddlywiki
 
-<<dbadge bilibli "[[通道|https://www.bilibili.com/]]" info>> <<dbadge 部署链接 "[[Github Actions|https://github.com/Lconfident]]" success>> <<dbadge 息流工作 "[[支持|https://flowus.cn/lyfroot/d1500a3c-1738-4fde-9ee0-db09bb0f14fe]]" "danger">>
+<<dbadge bilibli "[[通道|https://www.bilibili.com/]]" info>> 
+<<dbadge 部署链接 "[[Github Actions|https://github.com/Lconfident]]" success>> <<dbadge 息流工作 "[[支持|https://flowus.cn/lyfroot/d1500a3c-1738-4fde-9ee0-db09bb0f14fe]]" "danger">>
 
-> Todo
-
+!!! Todo
 <<reuse-tiddler "Todo">>
-
-> 正在做的事
-
-<<reuse-tiddler "正在做的事">>
-
 <<reuse-tiddler 快速创建新笔记按钮>>
-
-!!! /''TagCloud''
-
+<<reuse-tiddler "正在读的书">>
+!! /''TagCloud''
 <$echarts $tiddler="$:/plugins/Gk0Wk/echarts/addons/TagCloud.js"/>
 
-!! ''/contribuutes in the this year''
-
+!! ''/Contribute in this year''
 <$echarts $tiddler="$:/plugins/Gk0Wk/echarts/addons/oflg/CalendarHeatmap.js" $height="150px" />
 
