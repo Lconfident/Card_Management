@@ -6,13 +6,13 @@ grade: -1
 history: []
 interval: 0
 lapses: 0
-modified: 20220607152625832
+modified: 20220628103009866
 modifier: Lconfident
 reps: 1
 retrievability: 1
 review: 20220607152625832
 stability: 2
-tags: JAVA ?
+tags: JAVA
 title: JAVA三大特性
 type: text/vnd.tiddlywiki
 wysiwyg: yes

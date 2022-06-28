@@ -1,12 +1,12 @@
 created: 20220624091439302
 creator: Lconfident
-modified: 20220624091720778
+modified: 20220628101800635
 modifier: Lconfident
-tags: [[Java IO]] JAVA
-title: 概览
+tags: [[Java IO]]
+title: IO概览
 type: text/vnd.tiddlywiki
 
-；Java的I/O大概可以分为一下几类：
+Java的I/O大概可以分为一下几类：
 
 * 磁盘操作：File
 * 字节操作：InputStream 和 OutputStream

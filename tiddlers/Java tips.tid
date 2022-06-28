@@ -7,13 +7,13 @@ grade: -1
 history: []
 interval: 0
 lapses: 0
-modified: 20220618142410086
+modified: 20220628102653544
 modifier: Lconfident
 reps: 1
 retrievability: 1
 review: 20220607152658644
 stability: 2
-tags: JAVA ?
+tags: JAVA
 title: Java tips
 type: text/vnd.tiddlywiki
 

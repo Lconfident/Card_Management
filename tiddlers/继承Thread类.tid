@@ -1,0 +1,23 @@
+created: 20220628100056109
+creator: Lconfident
+modified: 20220628100818537
+modifier: Lconfident
+tags: 使用线程
+title: 继承Thread类
+type: text/vnd.tiddlywiki
+
+需要实现 run() 方法，因为 Thread 类也实现了 Runable 接口
+
+当调用 start() 方法启动一个线程时，虚拟机会将该线程放入就绪队列中等待被调度，当一个线程被调度时会执行该线程的 run() 方法
+
+```java
+public class myThread extends Thread{
+	public void run(){
+				//...
+	}
+}
+public static void main(String[] args){
+	myThread mt = new myThread();
+	mt.start();
+}
+```

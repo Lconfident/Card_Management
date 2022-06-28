@@ -1,0 +1,25 @@
+created: 20220628094457971
+creator: Lconfident
+modified: 20220628100832198
+modifier: Lconfident
+tags: 使用线程
+title: 实现Runnable接口
+type: text/vnd.tiddlywiki
+
+首先实现接口中的 `run()`方法
+
+```java
+public class myClass implements Runnable(){
+	public void run (){
+		//你想要在线程中运行的代码
+	}
+}
+```
+然后使用Runnable实例再创建一个Thread实例，最后调用Thread实例的`start（）`方法来启动线程
+
+```java
+public static void main (String[] args){
+	myClass instance = new myClass();//创建Runnable实例
+	Thread newThread = new Thread(instance);//创建基于Runnable的Thread实例
+	newThread.start();//调用start（）方法启动线程
+}

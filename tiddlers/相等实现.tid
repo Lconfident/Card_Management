@@ -1,9 +1,9 @@
 created: 20220623091214761
 creator: Lconfident
-modified: 20220623091606011
+modified: 20220628103101903
 modifier: Lconfident
-tags: Object常用方法 JAVA equals
-title: 实现
+tags: Object常用方法 equals
+title: 相等实现
 type: text/vnd.tiddlywiki
 
 * 检查是否是同一个对象的引用，如果是直接返回true

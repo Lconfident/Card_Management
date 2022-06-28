@@ -1,0 +1,28 @@
+created: 20220628095407622
+creator: Lconfident
+modified: 20220628100825555
+modifier: Lconfident
+tags: 使用线程
+title: 实现Callable接口
+type: text/vnd.tiddlywiki
+
+与Runnable相比，Callable可以有返回值，返回值通过 FutureTask 进行封装
+
+```java
+public class MyCallable implements Callable<Integer> {//泛型
+	public Integer call() {	
+		return 123;
+	}
+}
+```
+
+```java
+public static void main(String[] args) throws ExecutionException,
+InterruptedException {
+	MyCallable mc = new MyCallable();
+	FutureTask<Integer> ft = new FutureTask<>(mc);
+	Thread thread = new Thread(ft);
+	thread.start();
+	System.out.println(ft.get());
+}
+```

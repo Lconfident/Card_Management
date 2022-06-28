@@ -6,16 +6,22 @@ grade: -1
 history: []
 interval: 0
 lapses: 0
-modified: 20220607152650560
+modified: 20220628101211434
 modifier: Lconfident
 page-cover: 
 reps: 1
 retrievability: 1
 review: 20220607152650560
 stability: 2
-tags: JAVA ?
+tags: JAVA
 title: Java标识符
 type: text/vnd.tiddlywiki
 
 ''由字母、数字、下划线（_）、美元符号（$）组长，首字母不能是数字''，  
 其中''字母''是包括汉字在内的各个国家的文字（Unicode）字符。
+
+''1. 关键字不能作为标识符''
+
+''2. 布尔常量（true/false）不能作为标识符''；
+
+''3. null不能作为标识符''；
