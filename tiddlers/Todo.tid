@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220628110955676
+modified: 20220628111801849
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -14,4 +14,4 @@ type: text/vnd.tiddlywiki
 
 <<reuse-tiddler "Todo List">>
 
-<<details label:"近期工作(可点击查看）" src:"正在做的事" labelClass:"bg-secondary text-white">>
+<<details label:"近期工作" src:"正在做的事" labelClass:"bg-secondary text-white">>

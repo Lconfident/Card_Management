@@ -2,7 +2,7 @@ color: #8484ae
 created: 20220607050730296
 creator: Lconfident
 icon: ⭐
-modified: 20220628111719314
+modified: 20220628112813502
 modifier: Lconfident
 page-cover: https://source.unsplash.com/random
 tags: 
@@ -10,7 +10,8 @@ title: 知识管理系统
 type: text/vnd.tiddlywiki
 
 <<dbadge bilibli "[[通道|https://www.bilibili.com/]]" info>> 
-<<dbadge 部署链接 "[[Github Actions|https://github.com/Lconfident]]" success>> <<dbadge 息流工作 "[[支持|https://flowus.cn/lyfroot/d1500a3c-1738-4fde-9ee0-db09bb0f14fe]]" "danger">>
+<<dbadge Lconfident "[[Github Actions|https://github.com/Lconfident]]" success>> <<dbadge 息流 "[[支持|https://flowus.cn/lyfroot/d1500a3c-1738-4fde-9ee0-db09bb0f14fe]]" >>
+<<dbadge 林一二"[[访问|https://onetwo.ren/wiki/]]" "danger">>
 
 !!! Todo
 <<reuse-tiddler "Todo">>
