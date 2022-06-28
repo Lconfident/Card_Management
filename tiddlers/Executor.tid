@@ -1,7 +1,25 @@
 created: 20220628123404271
 creator: Lconfident
-modified: 20220628124731206
+modified: 20220628143259414
 modifier: Lconfident
 tags: 基础线程机制
 title: Executor
 type: text/vnd.tiddlywiki
+
+Executor 管理多个异步任务的运行，而无需程序员显示地管理线程的生命周期。这里的异步指多个任务的执行互不干扰，不需要同步操作
+
+主要有三种 Executor：
+
+* CachedThreadPool：一个任务创建一个线程；
+* FixedThreadPool：所有任务只能使用固定大小的线程；
+* SingleThreadExecutor：相当于大小为 1 的 FixedThreadPool。
+
+```java
+public static void main(String[] args) {
+ExecutorService executorService = Executors.newCachedThreadPool();
+for (int i = 0; i < 5; i++) {
+executorService.execute(new MyRunnable());
+}
+executorService.shutdown();
+}
+```

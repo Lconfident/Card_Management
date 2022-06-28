@@ -1,8 +1,8 @@
 created: 20220616072028329
 creator: Lconfident
-modified: 20220616072028329
+modified: 20220628130633068
 modifier: Lconfident
 title: $:/themes/tiddlywiki/vanilla/options/codewrapping
 type: text/vnd.tiddlywiki
 
-pre
+pre-wrap

@@ -1,8 +1,8 @@
 created: 20200409060942350
 creator: linonetwo
-modified: 20220607051831664
+modified: 20220628130805640
 modifier: Lconfident
 title: $:/config/DefaultMoreSidebarTab
 type: text/vnd.tiddlywiki
 
-$:/core/ui/MoreSideBar/All
+$:/core/ui/MoreSideBar/Orphans
