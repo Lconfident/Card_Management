@@ -1,7 +1,12 @@
 created: 20220628100908531
 creator: Lconfident
-modified: 20220628100920068
+modified: 20220628123402458
 modifier: Lconfident
 tags: Java并发
 title: 基础线程机制
 type: text/vnd.tiddlywiki
+
+* ''Executor''
+* ''Daemon''
+* ''sleep()''
+* ''yield()''
