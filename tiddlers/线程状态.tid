@@ -1,0 +1,9 @@
+created: 20220629023730127
+creator: Lconfident
+modified: 20220629023806509
+modifier: Lconfident
+tags: Java并发
+title: 线程状态
+type: text/vnd.tiddlywiki
+
+一个线程只能处于一种状态，并且这里的线程状态特指 Java 虚拟机（JVM）的线程状态，不能反映线程在特定操作系统下的状态。

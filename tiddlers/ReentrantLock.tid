@@ -1,0 +1,33 @@
+created: 20220629020435880
+creator: Lconfident
+modified: 20220629020625018
+modifier: Lconfident
+tags: 互斥同步
+title: ReentrantLock
+type: text/vnd.tiddlywiki
+
+ReentrantLock 是 java.util.concurrent（J.U.C）包中的锁
+
+```java
+public class LockExample {
+	private Lock lock = new ReentrantLock();
+	public void func() {
+lock.lock();
+	try {
+	for (int i = 0; i < 10; i++) {
+		System.out.print(i + " ");
+		}
+	}	finally {
+	lock.unlock(); // 确保释放锁，从而避免发生死锁。
+		}
+	}
+}
+public static void main(String[] args) {
+	LockExample lockExample = new LockExample();
+	ExecutorService executorService = Executors.newCachedThreadPool();
+	executorService.execute(() -> lockExample.func());
+	executorService.execute(() -> lockExample.func());
+}
+```
+`0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9`
+

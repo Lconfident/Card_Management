@@ -1,0 +1,15 @@
+created: 20220629020325817
+creator: Lconfident
+modified: 20220629020416271
+modifier: Lconfident
+tags: synchronized
+title: 同步一个静态方法
+type: text/vnd.tiddlywiki
+
+作用于整个类
+
+```java
+public synchronized static void fun() {
+		// ...
+}
+```

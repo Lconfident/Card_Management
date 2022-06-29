@@ -1,0 +1,18 @@
+created: 20220629024256021
+creator: Lconfident
+modified: 20220629025218187
+modifier: Lconfident
+tags: 线程状态
+title: 无限期等待（WAITING）
+type: text/vnd.tiddlywiki
+
+等待其它线程将它显式地唤醒
+
+阻塞和等待的区别在于，''阻塞是被动''的，它是在等待获取 monitor lock
+
+而''等待是主动''的，通过调用 ''Object''.wait() 等方法进入
+
+| !进入方法 | !退出方法 |
+|!没有设置 Timeout 参数的Object.wait()方法 |! Object.notify()/Object.notifyAll()方法|
+|!没有设置 Timeout 参数的Thread.join()方法|!被调用的线程执行完毕|
+|!LockSupport.park()方法|!LockSupport.unpark(Thread)|

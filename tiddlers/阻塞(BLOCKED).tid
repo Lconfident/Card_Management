@@ -1,0 +1,12 @@
+created: 20220629024007390
+creator: Lconfident
+modified: 20220629024129684
+modifier: Lconfident
+tags: 线程状态
+title: 阻塞(BLOCKED)
+type: text/vnd.tiddlywiki
+
+请求获取 monitor lock 从而进入 synchronized 函数或者代码块，但是其它线程已经占用了该 monitor
+lock，所以处于阻塞状态
+
+要结束该状态进入 RUNABLE 需要其他线程释放 monitor lock
