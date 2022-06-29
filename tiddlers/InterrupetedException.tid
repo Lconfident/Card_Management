@@ -1,0 +1,41 @@
+created: 20220629005348442
+creator: Lconfident
+modified: 20220629005641478
+modifier: Lconfident
+tags: 中断
+title: InterrupetedException
+type: text/vnd.tiddlywiki
+
+通过''调用''一个线程的 ''interrupt()'' 来中断该线程，
+
+如果该线程''处于阻塞、限期等待或者无限期等待状态''，那么就会抛出 ''InterruptedException''，从而提前''结束该线程''。但是''不能中断'' __I/O 阻塞__和 __synchronized 锁阻塞__。
+
+```java
+public class InterruptExample {
+	private static class MyThread1 extends Thread {
+	@Override
+	public void run() {
+		try {
+		Thread.sleep(2000);
+		System.out.println("Thread run");
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+}
+public static void main(String[] args) throws InterruptedException {
+	Thread thread1 = new MyThread1();
+	thread1.start();
+	thread1.interrupt();
+	System.out.println("Main run");
+}
+```
+
+```java
+Main run
+java.lang.InterruptedException: sleep interrupted
+at java.lang.Thread.sleep(Native Method)
+at InterruptExample.lambda$main$0(InterruptExample.java:5)
+at InterruptExample$$Lambda$1/713338599.run(Unknown Source)
+at java.lang.Thread.run(Thread.java:745)
+```

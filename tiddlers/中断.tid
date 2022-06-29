@@ -1,0 +1,10 @@
+created: 20220629003034164
+creator: Lconfident
+modified: 20220629003211506
+modifier: Lconfident
+tags: Java并发
+title: 中断
+type: text/vnd.tiddlywiki
+wysiwyg: yes
+
+线程执行完毕之后会自动结束，如果在运行过程中发生异常会提前结束

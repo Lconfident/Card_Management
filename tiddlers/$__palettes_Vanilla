@@ -9,7 +9,7 @@ button-foreground:
 button-border: 
 code-background: #f7f7f9
 code-border: #e1e1e8
-code-foreground: #dd1144
+code-foreground: #666
 diff-delete-background: #ffc9c9
 diff-delete-foreground: <<colour foreground>>
 diff-equal-background: 

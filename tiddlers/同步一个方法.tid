@@ -1,0 +1,15 @@
+created: 20220629011445909
+creator: Lconfident
+modified: 20220629011535713
+modifier: Lconfident
+tags: synchronized
+title: 同步一个方法
+type: text/vnd.tiddlywiki
+
+它和同步代码块一样，作用于''同一个对象''
+
+```java
+public synchronized void func () {
+	// ...
+}
+```

@@ -1,0 +1,12 @@
+created: 20220629010721424
+creator: Lconfident
+modified: 20220629010857753
+modifier: Lconfident
+tags: 互斥同步
+title: synchronized
+type: text/vnd.tiddlywiki
+
+* 同步一个代码块
+* 同步一个方法
+* 同步一个类
+* 同步一个静态方法

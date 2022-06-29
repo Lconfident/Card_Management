@@ -1,0 +1,9 @@
+created: 20220629010549261
+creator: Lconfident
+modified: 20220629010717238
+modifier: Lconfident
+tags: Java并发
+title: 互斥同步
+type: text/vnd.tiddlywiki
+
+Java 提供了''两种锁机制''来控制''多个''线程对''共享资源的互斥访问''，第一个是 ''JVM'' 实现的 ''synchronized''，而另一个是 ''JDK'' 实现的 ''ReentrantLock''。
