@@ -1,0 +1,14 @@
+created: 20220630000929144
+creator: Lconfident
+modified: 20220630003016107
+modifier: Lconfident
+tags: Java并发
+title: J.U.C - AQS
+type: text/vnd.tiddlywiki
+wysiwyg: yes
+
+java.util.concurrent（J.U.C）大大提高了并发性能，AQS 被认为是 J.U.C 的核心
+
+* CountDownLatch
+* CyclicBarrier
+* Semaphore

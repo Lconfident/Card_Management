@@ -1,0 +1,15 @@
+created: 20220630003316059
+creator: Lconfident
+modified: 20220630005417533
+modifier: Lconfident
+title: FutureTask
+type: text/vnd.tiddlywiki
+
+
+在介绍 Callable 时我们知道它可以有返回值，返回值通过 Future<V> 进行封装
+
+`public class FutureTask<V> implements RunnableFuture<V>`
+
+FutureTask 实现了 ''RunnableFuture'' 接口，该接口继承自 Runnable 和 Future<V> 接口，这使得 FutureTask 既可以当做一个任务执行，也可以有返回值
+
+`public interface RunnableFuture<V> extends Runnable, Future<V>`

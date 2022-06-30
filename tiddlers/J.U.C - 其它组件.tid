@@ -1,0 +1,11 @@
+created: 20220630002151897
+creator: Lconfident
+modified: 20220630002254079
+modifier: Lconfident
+tags: Java并发
+title: J.U.C - 其它组件
+type: text/vnd.tiddlywiki
+
+* FutureTask
+* BlockingQueue
+* ForkJoin
