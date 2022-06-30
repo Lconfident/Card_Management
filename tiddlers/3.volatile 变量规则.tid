@@ -1,0 +1,10 @@
+created: 20220630025408229
+creator: Lconfident
+modified: 20220630025452828
+modifier: Lconfident
+tags: 先行发生原则
+title: 3.volatile 变量规则
+type: text/vnd.tiddlywiki
+
+> Volatile Variable Rule
+对一个 volatile 变量的''写操作''''先行发生''于后面对这个变量的''读操作''

@@ -1,0 +1,10 @@
+created: 20220630025502828
+creator: Lconfident
+modified: 20220630025600897
+modifier: Lconfident
+tags: 先行发生原则
+title: 4.线程启动原则
+type: text/vnd.tiddlywiki
+
+> Thread Start Rule
+Thread 对象的'' start()'' 方法调用''先行发生''于此线程的每一个动作

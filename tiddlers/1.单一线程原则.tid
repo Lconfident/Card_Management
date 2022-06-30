@@ -1,0 +1,11 @@
+created: 20220630025110717
+creator: Lconfident
+modified: 20220630025230938
+modifier: Lconfident
+tags: 先行发生原则
+title: 1.单一线程原则
+type: text/vnd.tiddlywiki
+
+> Single Thread rule
+在''一个线程内''，在程序__''前面的''__操作''先行发生''于''__后面的__''操作
+

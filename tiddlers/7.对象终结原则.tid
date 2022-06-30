@@ -1,0 +1,10 @@
+created: 20220630031820259
+creator: Lconfident
+modified: 20220630031935737
+modifier: Lconfident
+tags: 先行发生原则
+title: 7.对象终结原则
+type: text/vnd.tiddlywiki
+
+> Finalizer Rule
+一个对象的''初始化完成''（''构造函数执行结束''）''先行发生''于它的 ''finalize()'' 方法的开始

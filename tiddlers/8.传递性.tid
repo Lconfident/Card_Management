@@ -1,0 +1,10 @@
+created: 20220630031939256
+creator: Lconfident
+modified: 20220630032150587
+modifier: Lconfident
+tags: 先行发生原则
+title: 8.传递性
+type: text/vnd.tiddlywiki
+
+>Transitivity
+如果操作 A 先行发生于操作 B，操作 B 先行发生于操作 C，那么操作 A 先行发生于操作 C

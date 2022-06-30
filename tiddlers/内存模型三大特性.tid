@@ -1,0 +1,11 @@
+created: 20220630024104354
+creator: Lconfident
+modified: 20220630024159491
+modifier: Lconfident
+tags: [[Java 内存模型]]
+title: 内存模型三大特性
+type: text/vnd.tiddlywiki
+
+# 原子性
+# 可见性
+# 有序性

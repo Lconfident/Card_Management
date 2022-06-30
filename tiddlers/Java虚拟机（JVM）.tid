@@ -1,0 +1,12 @@
+created: 20220630032540802
+creator: Lconfident
+modified: 20220630032850396
+modifier: Lconfident
+tags: JAVA
+title: Java虚拟机（JVM）
+type: text/vnd.tiddlywiki
+
+# 运行时数据区域
+# 垃圾收集
+# 内存分配与回收策略
+# 类加载机制

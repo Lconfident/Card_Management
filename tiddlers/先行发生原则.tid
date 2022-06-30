@@ -1,0 +1,22 @@
+created: 20220630024948825
+creator: Lconfident
+modified: 20220630025101342
+modifier: Lconfident
+tags: [[Java 内存模型]]
+title: 先行发生原则
+type: text/vnd.tiddlywiki
+
+上面提到了可以用 volatile 和 synchronized 来保证有序性
+
+除此之外，JVM 还规定了先行发生原则，让一个操作''无需控制''就能''先于''另一个操作''完成''
+
+<<<
+# 单一线程原则
+# 管程锁定原则
+# volatile 变量规则
+# 线程启动原则
+# 线程加入规划
+# 线程中断规则
+# 对象终结规则
+# 传递性
+<<<

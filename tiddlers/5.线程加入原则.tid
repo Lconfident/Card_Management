@@ -1,0 +1,10 @@
+created: 20220630025604253
+creator: Lconfident
+modified: 20220630025651481
+modifier: Lconfident
+tags: 先行发生原则
+title: 5.线程加入原则
+type: text/vnd.tiddlywiki
+
+> Thread Join Rule
+''Thread 对象的结束先行发生''于 ''join() 方法返回''

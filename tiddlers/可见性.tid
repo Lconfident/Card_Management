@@ -1,0 +1,18 @@
+created: 20220630024542893
+creator: Lconfident
+modified: 20220630024721301
+modifier: Lconfident
+tags: 内存模型三大特性
+title: 可见性
+type: text/vnd.tiddlywiki
+
+可见性指当一个线程修改了共享变量的值，其它线程能够立即得知这个修改
+
+Java 内存模型是通过在变量修改后将新值''同步''回主内存，在变量读取前从主内存''刷新变量值''来实现可见性的
+
+主要有三种实现可见性的方式：
+* volatile
+* synchronized，对一个变量执行 unlock 操作之前，必须把变量值同步回主内存
+* final，被 final 关键字修饰的字段在构造器中一旦初始化完成，并且没有发生 this 逃逸（其它线程通过 this 引用访问到初始化了一半的对象），那么其它线程就能看见 final 字段的值
+
+对前面的线程不安全示例中的 cnt 变量使用 volatile 修饰，不能解决线程不安全问题，因为 volatile 并不能保证操作的原子性
