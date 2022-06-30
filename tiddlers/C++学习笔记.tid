@@ -1,10 +1,10 @@
 created: 20220628042224182
 creator: Lconfident
 due-date: 
-modified: 20220629095617163
+modified: 20220630104424284
 modifier: Lconfident
-priority: P79const限定符
-status: in-work
+priority: P82 指针与const
+status: rework
 tags: task
 title: C++学习笔记
 type: text/vnd.tiddlywiki
