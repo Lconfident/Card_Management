@@ -1,9 +1,9 @@
 created: 20220628042224182
 creator: Lconfident
 due-date: 
-modified: 20220630104424284
+modified: 20220702023530961
 modifier: Lconfident
-priority: P82 指针与const
+priority: P87 auto类型说明符
 status: rework
 tags: task
 title: C++学习笔记
