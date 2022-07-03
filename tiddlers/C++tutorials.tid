@@ -1,0 +1,19 @@
+created: 20220703114526653
+creator: Lconfident
+modified: 20220703130428665
+modifier: Lconfident
+tags: C++
+title: C++tutorials
+type: text/vnd.tiddlywiki
+
+* 程序结构
+* 基本输入输出
+> cin cout getline（cin,str)
+* 函数声明和调用
+> int add(int a,int b);//声明//
+* 重载函数
+* 泛型：函数模板`template <class T>`
+* 递归
+* 字符和字符串
+* 数组
+[[tutorials|https://cplusplus.com/doc/tutorial/pointers/]]
