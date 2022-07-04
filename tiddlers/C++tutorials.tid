@@ -1,6 +1,6 @@
 created: 20220703114526653
 creator: Lconfident
-modified: 20220703130428665
+modified: 20220704041428981
 modifier: Lconfident
 tags: C++
 title: C++tutorials
@@ -16,4 +16,23 @@ type: text/vnd.tiddlywiki
 * 递归
 * 字符和字符串
 * 数组
-[[tutorials|https://cplusplus.com/doc/tutorial/pointers/]]
+* 指针，常量
+* 指针和数组
+* 指针和函数
+* 结构体
+```c
+struct movie_t{
+string name;
+int year;
+}
+```
+* 指针和结构体
+```c
+movie_t amovie;
+movit_t *pmovie;//结构体指针
+pmovie = &amovie;//指向结构体的地址
+cout << pmovie->year;//调用结构体的成员，->是取消引用运算符
+```
+
+
+[[tutorials|https://cplusplus.com/doc/tutorial/other_data_types/]]
