@@ -1,6 +1,6 @@
 created: 20220703114526653
 creator: Lconfident
-modified: 20220704041428981
+modified: 20220704092650101
 modifier: Lconfident
 tags: C++
 title: C++tutorials
@@ -33,6 +33,63 @@ movit_t *pmovie;//结构体指针
 pmovie = &amovie;//指向结构体的地址
 cout << pmovie->year;//调用结构体的成员，->是取消引用运算符
 ```
+* 类型别名（typedef/using)
+* 联合和匿名联合
+* 枚举类型
+* 类、构造函数、重载构造函数
+* 类与指针
+```c
+class Rectangle {
+    int width, height;
+public:
+    Rectangle();
+    Rectangle(int, int);
+    int area(void) { return (width * height); }
+};//类定义
+Rectangle::Rectangle() {
+    width = 5;
+    height = 5;
+}//默认构造
+Rectangle::Rectangle(int a, int b) {
+    width = a;
+    height = b;
+}//重载构造函数
+```
+<<<
+初始化一般写法(指针也顺便写了)：
+
+```c
+#include <iostream>
+using namespace std;
+class rectangle {
+	int weight, height;
+public :
+	rectangle(int x, int y) : weight(x), height(y){}//成员初始化
+	int area() { return (weight * height); }
+};
+int main() {
+	rectangle obj(3, 4);
+	rectangle* foo, * bar, * baz;
+	foo = &obj;
+	bar = new rectangle(5, 6);
+	baz = new rectangle[2]{ {2,5 }, { 3,6 } };
+	cout << "obj's area is " << obj.area() << '\n';
+	cout << "*foo's area is " << foo->area() << '\n';
+	cout << "bar's area is " << bar->area() << '\n';
+	cout << "baz's area is " << baz[0].area() << '\n';
+	cout << "baz's area is " << baz[1].area() << '\n';
+	delete bar;
+	delete[] baz;
+	return 0;
+}
+
+```
+
+<<<
+
+* 重载运算符
+* this，静态成员	
+* 类模板
 
 
-[[tutorials|https://cplusplus.com/doc/tutorial/other_data_types/]]
+[[tutorial|https://cplusplus.com/doc/tutorial/classes2/]]

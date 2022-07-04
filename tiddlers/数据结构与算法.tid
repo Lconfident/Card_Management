@@ -1,7 +1,117 @@
 color: #f20707
 created: 20220610134957839
 creator: Lconfident
-modified: 20220610134958887
+modified: 20220704105112634
 modifier: Lconfident
+tags: 知识管理系统
 title: 数据结构与算法
 type: text/vnd.tiddlywiki
+
+!! 学习重点(学什么)
+
+!!! 链表
+
+* 链表<input name="checkbox" type="checkbox" value="checkbox" checked= "checked"/>
+* 双向链表<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 哈希表/散列表 (Hash Table)
+
+* 散列函数<input name="checkbox" type="checkbox" value="checkbox"/>
+* 碰撞解决<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 字符串算法
+
+* 排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 查找<input name="checkbox" type="checkbox" value="checkbox"/>
+** BF算法<input name="checkbox" type="checkbox" value="checkbox"/>
+** KMP算法<input name="checkbox" type="checkbox" value="checkbox"/>
+** BM算法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 正则表达式<input name="checkbox" type="checkbox" value="checkbox"/>
+* 数据压缩<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 树
+
+* 二叉树<input name="checkbox" type="checkbox" value="checkbox"/>
+* 二叉查找树<input name="checkbox" type="checkbox" value="checkbox"/>
+* 伸展树(splay tree 分裂树)<input name="checkbox" type="checkbox" value="checkbox"/>
+* 平衡二叉树AVL<input name="checkbox" type="checkbox" value="checkbox"/>
+* 红黑树<input name="checkbox" type="checkbox" value="checkbox"/>
+* B树,B+,B*<input name="checkbox" type="checkbox" value="checkbox"/>
+* R树<input name="checkbox" type="checkbox" value="checkbox"/>
+* Trie树(前缀树<input name="checkbox" type="checkbox" value="checkbox"/>
+* 后缀树<input name="checkbox" type="checkbox" value="checkbox"/>
+* 最优二叉树(赫夫曼树)<input name="checkbox" type="checkbox" value="checkbox"/>
+* 二叉堆 （大根堆，小根堆）<input name="checkbox" type="checkbox" value="checkbox"/>
+* 二项树<input name="checkbox" type="checkbox" value="checkbox"/>
+* 二项堆<input name="checkbox" type="checkbox" value="checkbox"/>
+* 斐波那契堆(Fibonacci Heap)<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 图的算法
+
+* 图的存储结构和基本操作（建立，遍历，删除节点，添加节点）<input name="checkbox" type="checkbox" value="checkbox"/>
+* 最小生成树<input name="checkbox" type="checkbox" value="checkbox"/>
+* 拓扑排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 关键路径<input name="checkbox" type="checkbox" value="checkbox"/>
+* 最短路径: Floyd,Dijkstra,bellman-ford,spfa<input name="checkbox" type="checkbox" value="checkbox"/>
+!!! 排序算法
+
+* 交换排序算法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 冒泡排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 插入排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 选择排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 希尔排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 快排<input name="checkbox" type="checkbox" value="checkbox"/>
+* 归并排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 堆排序<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 线性排序算法
+
+* 桶排序<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 查找算法
+
+* 顺序表查找：顺序查找<input name="checkbox" type="checkbox" value="checkbox"/>
+* 有序表查找：二分查找<input name="checkbox" type="checkbox" value="checkbox"/>
+* 分块查找： 块内无序，块之间有序；可以先二分查找定位到块，然后再到块中顺序查找<input name="checkbox" type="checkbox" value="checkbox"/><input name="checkbox" type="checkbox" value="checkbox"/>
+* 动态查找: 二叉排序树，AVL树，B- ，B+ （这里之所以叫 动态查找表，是因为表结构是查找的过程中动态生成的）<input name="checkbox" type="checkbox" value="checkbox"/><input name="checkbox" type="checkbox" value="checkbox"/><input name="checkbox" type="checkbox" value="checkbox"/>
+* 哈希表： O(1)<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 15个经典基础算法
+
+* Hash<input name="checkbox" type="checkbox" value="checkbox"/>
+* 快速排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* 快递选择SELECT<input name="checkbox" type="checkbox" value="checkbox"/>
+* BFS/DFS （广度/深度优先遍历）<input name="checkbox" type="checkbox" value="checkbox"/>
+* 红黑树 （一种自平衡的二叉查找树）<input name="checkbox" type="checkbox" value="checkbox"/>
+* KMP 字符串匹配算法<input name="checkbox" type="checkbox" value="checkbox"/>
+* DP (动态规划 dynamic programming)<input name="checkbox" type="checkbox" value="checkbox"/>
+* A*寻路算法： 求解最短路径<input name="checkbox" type="checkbox" value="checkbox"/>
+* Dijkstra：最短路径算法 （八卦下：Dijkstra是荷兰的计算机科学家,提出”信号量和PV原语“,"解决哲学家就餐问题",”死锁“也是他提出来的）<input name="checkbox" type="checkbox" value="checkbox"/>
+* 遗传算法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 启发式搜索<input name="checkbox" type="checkbox" value="checkbox"/>
+* 图像特征提取之SIFT算法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 傅立叶变换<input name="checkbox" type="checkbox" value="checkbox"/>
+* SPFA(shortest path faster algorithm) 单元最短路径算法<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 海量数据处理
+
+* Hash映射/分而治之<input name="checkbox" type="checkbox" value="checkbox"/>
+* Bitmap<input name="checkbox" type="checkbox" value="checkbox"/>
+* Bloom filter(布隆过滤器)<input name="checkbox" type="checkbox" value="checkbox"/>
+* Trie树<input name="checkbox" type="checkbox" value="checkbox"/>
+* 数据库索引<input name="checkbox" type="checkbox" value="checkbox"/>
+* 倒排索引(Inverted Index)<input name="checkbox" type="checkbox" value="checkbox"/>
+* 双层桶划分<input name="checkbox" type="checkbox" value="checkbox"/>
+* 外排序<input name="checkbox" type="checkbox" value="checkbox"/>
+* simhash算法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 分布处理之Mapreduce<input name="checkbox" type="checkbox" value="checkbox"/>
+
+!!! 算法设计思想
+
+* 迭代法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 穷举搜索法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 递推法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 动态规划<input name="checkbox" type="checkbox" value="checkbox"/>
+* 贪心算法<input name="checkbox" type="checkbox" value="checkbox"/>
+* 回溯<input name="checkbox" type="checkbox" value="checkbox"/>
+* 分治算法<input name="checkbox" type="checkbox" value="checkbox"/>
