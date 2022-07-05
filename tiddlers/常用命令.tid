@@ -1,0 +1,28 @@
+created: 20220705024248458
+creator: Lconfident
+modified: 20220705025311814
+modifier: Lconfident
+tags: MATLAB简介
+title: 常用命令
+type: text/vnd.tiddlywiki
+
+* 数值显示格式设定：
+```matlab
+>>format bank %两位小数
+```
+*命令窗口清屏：
+```matlab
+>>clc
+```
+*将工作空间中的变量一数据文件格式保存到外存中
+```matlab
+>>save 文件名 变量名 
+```
+*从外存中调用某数据文件
+```matlab
+>>load 文件名
+```
+*删除工作空间中的全部或部分变量
+```matlab
+>>clear 变量
+```

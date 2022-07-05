@@ -1,0 +1,19 @@
+created: 20220705035227088
+creator: Lconfident
+modified: 20220705071525757
+modifier: Lconfident
+tags: MATLAB语言基础
+title: 向量运算
+type: text/vnd.tiddlywiki
+
+!!生成向量
+
+''直接输入''：
+[img[直接输入法.png]]
+
+''冒号输入''：
+[img[冒号表达式法.png]]
+
+!!加减和数乘
+
+!!点积和叉积

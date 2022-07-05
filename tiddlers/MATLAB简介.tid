@@ -1,0 +1,18 @@
+created: 20220705021714080
+creator: Lconfident
+modified: 20220705022600805
+modifier: Lconfident
+tags: Matlab
+title: MATLAB简介
+type: text/vnd.tiddlywiki
+
+MATLAB是一款计算软件，有两种基本的数据运算量：数组和矩阵
+
+整个MATALAB系统由两部分组成，一是MATLAB基本部分，二是各种功能性和学科性的工具箱
+
+操作界面：
+
+* 命令窗口（Command Window）
+* 历史命令窗口（Command History Window）
+* 当前目录窗口（Current Directory Window）
+* 工作空间窗口（Workspace Window）

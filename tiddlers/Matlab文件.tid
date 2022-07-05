@@ -1,0 +1,17 @@
+created: 20220705025511926
+creator: Lconfident
+modified: 20220705030430676
+modifier: Lconfident
+tags: MATLAB简介
+title: Matlab文件
+type: text/vnd.tiddlywiki
+
+1.''M文件''，以''.m''为扩展名。由一系列MATLAB语句组成，包括命令文件和函数文件两类
+
+2.''MAT文件''，以''.mat''为扩展名（数据文件）。保存工作空间变量的数据
+
+3.''图形文件''，以''.fig''为扩展名。由绘图命令产生
+
+4.''MEX文件''，以''.mex''或''.dll''为扩展名。MATLAB可执行文件
+
+5.''模型和仿真文件''，以''.mdll''为扩展名。由Simulink仿真工具箱在建立各种仿真模型式产生。仿真文件以.s为扩展名
