@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220705075609005
+modified: 20220705123226025
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 |! 规划|!内容|
 |! C++学习| ![[C++Prime|https://www.aliyundrive.com/drive/folder/62aa9ff771a3028f21234b9ca5be1d3ea9b8e05a]] |
-|! 数据结构与算法学习|![[邓公课程|https://www.xuetangx.com/learn/THU08091000384/THU08091000384/10322765/video/17436706]] [[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]] |
+|! 数据结构与算法学习|![[邓公课程|https://www.xuetangx.com/learn/THU08091000384/THU08091000384/10322765/video/17436815]] [[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]] |
 
 
 <<reuse-tiddler "Todo List">>
