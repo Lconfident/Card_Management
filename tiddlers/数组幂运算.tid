@@ -1,12 +1,11 @@
 created: 20220706035807136
 creator: Lconfident
-draft.of: NewTiddler
-draft.title: 数组幂运算
-modified: 20220706035845761
+modified: 20220706040011885
 modifier: Lconfident
 tags: Matlab
-title: Draft of 'NewTiddler' by Lconfident
+title: 数组幂运算
 type: text/vnd.tiddlywiki
 
 参加运算的两个矩阵的行数和列数必须相同
 
+[img[数组幂运算.png]]

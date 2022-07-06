@@ -1,0 +1,15 @@
+created: 20220706040239906
+creator: Lconfident
+modified: 20220706041432297
+modifier: Lconfident
+tags: Matlab
+title: 矩阵转置运算
+type: text/vnd.tiddlywiki
+
+矩阵x的转置矩阵是y=x'
+
+复数矩阵A的转置是A.' 或 conj(A')
+共轭转置A'
+
+[img[转置.png]]
+[img[共轭.png]]
