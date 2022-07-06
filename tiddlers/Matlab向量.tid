@@ -1,15 +1,15 @@
 created: 20220705035227088
 creator: Lconfident
-modified: 20220705071525757
+modified: 20220706024654016
 modifier: Lconfident
-tags: MATLAB语言基础
-title: 向量运算
+tags: Matlab
+title: Matlab向量
 type: text/vnd.tiddlywiki
 
 !!生成向量
 
 ''直接输入''：
-[img[直接输入法.png]]
+[img[直接输入法1.png]]
 
 ''冒号输入''：
 [img[冒号表达式法.png]]
@@ -17,3 +17,6 @@ type: text/vnd.tiddlywiki
 !!加减和数乘
 
 !!点积和叉积
+点积：`dot(A,B)`
+
+叉积：`cross(A,B)`

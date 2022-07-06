@@ -1,0 +1,13 @@
+created: 20220706030135525
+creator: Lconfident
+modified: 20220706034541813
+modifier: Lconfident
+tags: Matlab
+title: 矩阵除法运算
+type: text/vnd.tiddlywiki
+
+A\B表示AX=B的解
+
+A/B表示XA=B的解
+
+[img[矩阵左除.png]]

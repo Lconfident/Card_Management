@@ -1,0 +1,22 @@
+created: 20220706022814778
+creator: Lconfident
+modified: 20220706024514088
+modifier: Lconfident
+tags: Matlab
+title: 数据文件保存
+type: text/vnd.tiddlywiki
+
+1.数据保存
+
+`>>save file A,B,C`
+
+保存当前工作空间中的变量A,B,C到".mat"文件中
+
+2.数据读入
+
+*load函数读取MAT文件
+[img[load.png]]
+
+*xlsread函数读取Excel文件
+
+[img[xlsread.png]]
