@@ -2,7 +2,7 @@ color: #8484ae
 created: 20220607050730296
 creator: Lconfident
 icon: ⭐
-modified: 20220704110009888
+modified: 20220706093948293
 modifier: Lconfident
 page-cover: https://source.unsplash.com/random
 tags: 
@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 <<dbadge 自律 "[[打卡|https://www.yuque.com/liuyefei-cekla/ld18b8/kik56b/edit#7MaR]]"warning>>
 <<dbadge 林一二"[[访问|https://onetwo.ren/wiki/]]">>
 
-<<dbadge Tsinghua"[[Online Judge|https://dsa.cs.tsinghua.edu.cn/oj/index.shtml]]""danger">>
+<<dbadge PPTV"[[猫和老鼠|http://v.pptv.com/show/DiaVEwyuRATibiaIIg.html]]""danger">>
 
 !!! Todo
 <<reuse-tiddler "Todo">>
