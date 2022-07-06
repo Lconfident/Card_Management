@@ -1,6 +1,6 @@
 created: 20220703114526653
 creator: Lconfident
-modified: 20220704092650101
+modified: 20220706075553084
 modifier: Lconfident
 tags: C++
 title: C++tutorials
@@ -90,6 +90,7 @@ int main() {
 * 重载运算符
 * this，静态成员	
 * 类模板
-
+* fridend
+* 继承
 
 [[tutorial|https://cplusplus.com/doc/tutorial/classes2/]]
