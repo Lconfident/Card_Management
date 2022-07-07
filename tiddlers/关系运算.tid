@@ -1,0 +1,15 @@
+created: 20220707014621315
+creator: Lconfident
+modified: 20220707015100465
+modifier: Lconfident
+tags: Matlab
+title: 关系运算
+type: text/vnd.tiddlywiki
+
+<,<=,>,>=,==,~=
+
+"1"表示真，"0"表示假
+
+非零数据为真，数据零为假
+
+两个数组运算时，大小必须相等，系统计算对应元素的关系运算

@@ -1,0 +1,13 @@
+created: 20220707021100314
+creator: Lconfident
+modified: 20220707021402103
+modifier: Lconfident
+tags: Matlab
+title: 矩阵的翻转和旋转
+type: text/vnd.tiddlywiki
+
+fliplr(a)左右翻转（left,right)
+
+flipud(a)上下翻转(up,down)
+
+rot(90)逆时针90度旋转

@@ -1,0 +1,14 @@
+created: 20220707015103419
+creator: Lconfident
+modified: 20220707015452632
+modifier: Lconfident
+tags: Matlab
+title: 逻辑运算
+type: text/vnd.tiddlywiki
+
+~（not），&（and），|(or)
+
+
+非零为真，数据零为假
+
+两个矩阵的行数和列数必须相同，对应元素求逻辑运算

@@ -1,0 +1,11 @@
+created: 20220707021405135
+creator: Lconfident
+modified: 20220707021951067
+modifier: Lconfident
+tags: Matlab
+title: 矩阵的提取
+type: text/vnd.tiddlywiki
+
+* diag(v,k)	 提取矩阵v的dik条对角线元素，若v时向量就生成一个指定对角线元素为v，其余元素是0的矩阵（k=0时为主对角线）
+* tril(v,k)	矩阵v中第k条对角线以下的所有元素生成一个下三角阵
+* trilu(v,k)	矩阵v中第k条对角线以下的所有元素生成一个上三角阵

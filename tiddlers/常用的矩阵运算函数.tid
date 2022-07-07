@@ -1,0 +1,15 @@
+created: 20220707015454905
+creator: Lconfident
+modified: 20220707020327237
+modifier: Lconfident
+tags: Matlab
+title: 常用的矩阵运算函数
+type: text/vnd.tiddlywiki
+
+* det	求方阵行列式运算	D=det(a)
+* inv	求矩阵的逆矩阵	E=inv(a)
+~~ pinv	求矩阵的伪逆（不重要）~~
+
+* rank	求矩阵的秩	r=rank(a)
+ 
+* eig	求矩阵的特征值和特征矩阵	[c,d]=eig(a)

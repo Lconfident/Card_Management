@@ -1,0 +1,38 @@
+created: 20220707022300034
+creator: Lconfident
+modified: 20220707033925458
+modifier: Lconfident
+tags: Matlab
+title: 符号多项式
+type: text/vnd.tiddlywiki
+
+''poly''nomial	多项式
+''sy''mbol	符号
+
+1.直接输入法
+
+函数''poly2sym(p)''将系数矢量p转换成多项式
+
+函数''sym2poly(y)''提取符号多项式y的系数矢量
+
+2.特征多项式输入法
+
+p=poly(A)将矩阵A转换成A的的特征多项式(|xE-A|=0)的系数	然后y=poly2sym(p)得到多项式
+
+|xE-A|=⋋³-5*⋋²+...+42
+
+3.定义符号变量y,x
+
+syms y s%定义了多个加s，定义一个不用加s
+
+4.多项式加减乘除
+
+y=2*y1+1.5*y2;%加
+
+p=sym2poly(y)%提取y的系数
+
+y3=y1*y2;%乘
+
+p3=sym2polty(y3);%提取y3的系数
+
+expand(y3);%将y3中的括号展开
