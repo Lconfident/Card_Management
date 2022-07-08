@@ -1,0 +1,12 @@
+created: 20220708103553898
+creator: Lconfident
+modified: 20220708111310258
+modifier: Lconfident
+tags: Matlab
+title: 数组的多项式拟合
+type: text/vnd.tiddlywiki
+
+p = polyfit(x,y,n)返回n阶拟合多项式系数p
+用p(x(i))拟合y(i)，i=1,2,...,m
+
+求误差函数

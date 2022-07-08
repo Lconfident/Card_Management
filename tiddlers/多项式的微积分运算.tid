@@ -1,0 +1,14 @@
+created: 20220708103045755
+creator: Lconfident
+modified: 20220708103548270
+modifier: Lconfident
+tags: Matlab
+title: 多项式的微积分运算
+type: text/vnd.tiddlywiki
+
+p 是多项式的系数
+
+（方程求导）多项式p的微分运算函数为 polyder(p)
+
+（方程求积）多项式p的积分运算函数为 polyint(p)
+表示从0到x的定积分运算

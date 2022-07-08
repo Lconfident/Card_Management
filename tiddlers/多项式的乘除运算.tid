@@ -1,0 +1,15 @@
+created: 20220708101921672
+creator: Lconfident
+modified: 20220708102837863
+modifier: Lconfident
+tags: Matlab
+title: 多项式的乘除运算
+type: text/vnd.tiddlywiki
+
+1. 多项式的乘法由函数''conv(p1,p2)''实现，conv是矢量的卷积函数
+
+2. 多项式的除法由函数deconv(p1,p2)实现，deoconv是conv的逆运算
+
+已知两个多项式 y1=x^4-5x^3+3x^2-4x+2和 y2=x^3+2x^2-5x+3 ，计算''y1×y2''的多项式系数，并用除法验证
+
+[img[多项式乘除.png]]
