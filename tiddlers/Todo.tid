@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220709001041653
+modified: 20220709032254569
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 数学建模任务清单
 
-<<sticky "7.9">>：学习通matlab概论+图集课第一节
+<<sticky-done "7.9" " Completed: 2022-07-09 11:22 上午 ">>：学习通matlab概论+突击课第一节
 
 <<sticky "7.10">>：学习通矩阵运算+突击课第二节论文知识
 
