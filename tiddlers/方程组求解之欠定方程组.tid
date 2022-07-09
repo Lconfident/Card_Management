@@ -1,0 +1,15 @@
+created: 20220709003414231
+creator: Lconfident
+modified: 20220709004858090
+modifier: Lconfident
+tags: Matlab
+title: 方程组求解之欠定方程组
+type: text/vnd.tiddlywiki
+
+Ax=B,
+
+''方程组个数<未知量个数''
+
+欠定方程组不唯一，会算通解的基解。
+
+有两种算法：''最少元素解''A\B和''最小范数解''pinv(A)*B

@@ -1,12 +1,28 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220708111350118
+modified: 20220709001041653
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
 type: text/vnd.tiddlywiki
 
-<table ><tbody ><tr class="evenRow"><th > 内容</th><th >链接</th></tr><tr class="oddRow"><th > C++学习</th><th align="center">[ext[C++Prime|https://www.aliyundrive.com/drive/folder/62aa9ff771a3028f21234b9ca5be1d3ea9b8e05a]]</th></tr><tr class="evenRow"><th > 数据结构与算法学习</th><th align="left">[ext[邓公课程|https://www.xuetangx.com/learn/THU08091000384/THU08091000384/10322765/video/17436871?channel=i.area.learn_title]] [ext[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]]</th></tr><tr class="oddRow"><th >数模</th><th >[ext[课程跟进|https://mooc1.chaoxing.com/mycourse/studentstudy?chapterId=551159339&courseId=224198044&clazzid=54309418&cpi=197066763&enc=9c15a39a916db1531fc988f17bd240fc&mooc2=1&openc=2c22a772a296a80d4271d4680aaffeff]]</th></tr></tbody></table>
+<table ><tbody ><tr class="evenRow"><th > 内容</th><th >链接</th></tr><tr class="oddRow"><th > C++学习</th><th align="center">[ext[C++Prime|https://www.aliyundrive.com/drive/folder/62aa9ff771a3028f21234b9ca5be1d3ea9b8e05a]]</th></tr><tr class="evenRow"><th > 数据结构与算法学习</th><th align="left">[ext[邓公课程|https://www.xuetangx.com/learn/THU08091000384/THU08091000384/10322765/video/17436871?channel=i.area.learn_title]] [ext[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]]</th></tr><tr class="oddRow"><th >数模</th><th >[ext[学习通|https://mooc1.chaoxing.com/mycourse/studentstudy?chapterId=551159339&courseId=224198044&clazzid=54309418&cpi=197066763&enc=9c15a39a916db1531fc988f17bd240fc&mooc2=1&openc=2c22a772a296a80d4271d4680aaffeff]][[北海哔哩哔哩|https://www.bilibili.com/video/BV1Rq4y1S7S8?p=6&spm_id_from=pageDriver&vd_source=4fe602163e123a42d52b1a7672e94c9a]]</th></tr></tbody></table>
 <<reuse-tiddler "Todo List">>
 
 <<details label:近期工作 src:近期工作 labelClass:"bg-secondary text-white">>
+
+数学建模任务清单
+
+<<sticky "7.9">>：学习通matlab概论+图集课第一节
+
+<<sticky "7.10">>：学习通矩阵运算+突击课第二节论文知识
+
+<<sticky "7.11">>：学习通数值运算基础+突击课matlab的使用一半
+
+<<sticky "7.12">>：学习通符号运算基础+突击课matlab学完
+
+<<sticky "7.13">>：学习通matlab常用绘图功能的学习
+
+<<sticky "7.14">>：编程二人完成突击课4相关算法学习+负责论文的同学熟悉论文的编写
+
+<<sticky "7.15">>：编程二人完成学习通第六章程序基础和算法+负责论文的同学熟悉论文的编写

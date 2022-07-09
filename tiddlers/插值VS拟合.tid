@@ -1,0 +1,30 @@
+created: 20220709005454864
+creator: Lconfident
+modified: 20220709011253229
+modifier: Lconfident
+tags: Matlab
+title: 插值VS拟合
+type: text/vnd.tiddlywiki
+
+插值一定过数据点
+
+拟合得到最接近的结果
+
+''一维插值''：yi = interp1(x,y,xi,method)
+在点集(x,y)已知的情况下，通过method方法求点集xi求yi的值
+
+提供4种方法：
+
+
+# 临近点插值：method='nearest'
+# 线性插值：method='linear'
+# 三次样条插值：method='spline'
+# 立方插值：method='cubic'
+
+''二维插值''：ZI=interp2(X,Y,Z,XI,YI,method),[X,Y]为二维网络，Z为一维数组
+
+4种方法：
+# 临近点插值：method='nearest'
+# 双线性插值： method='linear'
+# 三次样条插值：method='spline'
+# 二重立方插值：method='cubic'

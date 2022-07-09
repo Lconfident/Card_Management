@@ -1,9 +1,9 @@
 created: 20220706013112528
 creator: Lconfident
-modified: 20220706024617988
+modified: 20220709012057736
 modifier: Lconfident
-tags: Matlab
-title: Matlab矩阵
+tags: 矩阵运算基础
+title: 矩阵创建
 type: text/vnd.tiddlywiki
 
 矩阵在MTLAB中按列的先后顺序存放

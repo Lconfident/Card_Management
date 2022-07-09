@@ -1,0 +1,28 @@
+created: 20220709012125672
+creator: Lconfident
+modified: 20220709013005313
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号对象的创建
+type: text/vnd.tiddlywiki
+
+数学符号工具箱：Symbolic Math Toolbox
+
+借助函数 sym() 或 命令 syms
+
+1. 创建一个符号变量的同时赋予一个表达式
+
+a=sym('a')
+
+b=sym('x+2*y')
+
+b是符号变量名， x+2y 是符号表达式， `''`是符号标识
+
+2. 声明符号变量
+
+syms a b c d
+
+3. 数值矩阵转化为符号矩阵A1=sym(A)
+
+''默认符号变量''：以最接近于x的顺序排列，可用函数findsym对默认自变量查询
+

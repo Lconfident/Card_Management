@@ -1,0 +1,15 @@
+created: 20220709002817663
+creator: Lconfident
+modified: 20220709003402694
+modifier: Lconfident
+tags: Matlab
+title: 方程组求解之超定方程组
+type: text/vnd.tiddlywiki
+
+Ax=B,A为n×m矩阵，B为n×1的向量，n>m就是超定方程
+
+''也就是方程个数>未知量个数''
+
+用''除法求解''x=A\B或''伪逆求解''x=pinv(A)*B
+
+伪逆求的解并不一定满足Ax=B,只是最小二乘意义(|Ax-B|最小)的解

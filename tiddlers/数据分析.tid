@@ -1,0 +1,24 @@
+created: 20220709004146496
+creator: Lconfident
+modified: 20220709004846230
+modifier: Lconfident
+tags: Matlab
+title: 数据分析
+type: text/vnd.tiddlywiki
+
+两条约定：
+
+# x为矢量，则不论是列矢量还是行矢量，运算是对整个矢量进行
+
+# x为矩阵，函数运算按列进行
+
+基本统计命令
+
+# max(x)......求各列的最大元素
+# min(x)......求各列的最小元素
+# mean(x).....求各列的平均值
+# deian(x)....求各列的中间值
+# std(x)......求各列的标准差（方差开根号）
+# prod(x).....求各列的积
+# sum(x)......求各列的和
+# sort(x).....求各列元素按递增排序

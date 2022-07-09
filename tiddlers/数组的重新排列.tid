@@ -1,15 +1,18 @@
 created: 20220707020426604
 creator: Lconfident
-modified: 20220707021056896
+modified: 20220709001716330
 modifier: Lconfident
 tags: Matlab
-title: 数组的重新排列 reshape
+title: 数组的重新排列
 type: text/vnd.tiddlywiki
 
 数组中的元素在Matlab中''按列排列''
 顺序如下：
+
 1	4	7
+
 2	5	8
+
 3	6	9
 
 c=reshape(a,2,8)%将a矩阵重新排列成2行8列矩阵c

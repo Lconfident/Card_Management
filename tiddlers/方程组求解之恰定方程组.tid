@@ -1,0 +1,15 @@
+created: 20220709002342938
+creator: Lconfident
+modified: 20220709003113671
+modifier: Lconfident
+tags: Matlab
+title: 方程组求解之恰定方程组
+type: text/vnd.tiddlywiki
+
+对于Ax=B，A为满秩的方阵，则为恰定方程。
+
+''也就是说未知量个数=方程个数''
+
+公式：''求逆''x=inv(A)*B或''矩阵除法''x=A\B
+
+矩阵A的逆为inv(A)
