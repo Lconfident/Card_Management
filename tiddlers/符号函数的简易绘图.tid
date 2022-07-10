@@ -1,0 +1,17 @@
+created: 20220710105837652
+creator: Lconfident
+modified: 20220710110722351
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号函数的简易绘图
+type: text/vnd.tiddlywiki
+
+1. ezplot(f):表示绘制函数f在[-2Π，2Π]的二维图形，ezplot(f,[a,b])范围自己定义[a,b]
+
+2.ezpolar：极坐标下的函数，与ezplot格式一致
+
+3.ezplot3(x,y,z)：表示x=x(t),y=y(t),z=z(t)在[-2Π,2Π]上的三维曲线，ezplot3(x,y,z,[a,b])表示在[a,b]上的三维曲线
+
+4.网格图绘图函数ezmesh(f),ezmesh(f,[xa,xb])
+
+5.表面图绘图函数ezsurf(f)
