@@ -1,0 +1,13 @@
+created: 20220710124209028
+creator: Lconfident
+modified: 20220710124540644
+modifier: Lconfident
+tags: 建模过程
+title: 模型的建立
+type: text/vnd.tiddlywiki
+
+* 一组公式，和对公式中每个变量的解释，就是一个模型
+
+* 先查阅资料，看着资料，用自己的话复述一个简单的模型，再根据题目中的约束条件去一步步修改模型，把题目中的变量带入模型中
+
+[img[02.png]]
