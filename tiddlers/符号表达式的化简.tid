@@ -1,0 +1,42 @@
+created: 20220710072936546
+creator: Lconfident
+modified: 20220710093138096
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号表达式的化简
+type: text/vnd.tiddlywiki
+
+1. 因式分解表达式factor:Y=factor(S)
+
+[img[factor.png]]
+
+2. 展开expand:Y=expand(S)
+
+[img[expand.png]]
+
+3. 同类项合并y=collect(S,x)
+
+[img[collect.png]]
+
+4. 符号表达式的简化
+
+化简函数有:y=simplify(S)和[r,how]=simple(S)(r表示S简化后的表达式)
+
+how的方法有：simplify（一般的化简）,radsimp（函数对含有根号的化简）,combine（函数以求和、乘积、幂的形式化简）,collect,factor（因式分解）,convert（转化为含e的表达式）
+
+[img[simplify.png]]
+
+5.符号表达式的通分
+
+[n,d]=numden(S)通分S为n/d的形式
+
+[img[通分.png]]
+
+6.嵌套形式重写函数
+
+[img[horner.png]]
+
+7. 替换函数
+
+subexpr:[y,ss]=subexpr(S,"ss")将复杂表达式S用y和ss表示
+	

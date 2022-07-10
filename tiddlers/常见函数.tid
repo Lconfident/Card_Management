@@ -1,6 +1,6 @@
 created: 20220709013009639
 creator: Lconfident
-modified: 20220709013211713
+modified: 20220710093753104
 modifier: Lconfident
 tags: Matlab
 title: 常见函数
@@ -9,3 +9,4 @@ type: text/vnd.tiddlywiki
 * diff(f)：对默认变量求微分
 * diff(f,n)：对变量n求微分
 * findsym(f)：查找f中的符号变量
+* exp(a):e^a

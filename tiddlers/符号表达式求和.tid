@@ -1,0 +1,19 @@
+created: 20220710095002861
+creator: Lconfident
+modified: 20220710104248159
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号表达式求和
+type: text/vnd.tiddlywiki
+
+''symsum''
+
+* symsum(S)：表示关于默认变量v求0~v-1的和
+* symsum(S,v)
+* symsum(S,v,a,b)
+* symsum(S,a,b)
+
+其中，S符号表达式，v为自变量，a为初值，
+b为终值
+
+[img[symsum.png]]

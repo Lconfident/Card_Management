@@ -1,0 +1,13 @@
+created: 20220710093147674
+creator: Lconfident
+modified: 20220710093807421
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号函数求极限的函数limit()
+type: text/vnd.tiddlywiki
+
+* limit(F,x,a,'right')函数F在自变量趋于a时的右极限
+* limit(F,x,a,'left')~左极限
+* limit(F,x,a)极限
+* limit(F,a)默认变量趋于a的极限
+* limit(F)表示limit(F,0)

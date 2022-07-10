@@ -1,0 +1,13 @@
+created: 20220710104250568
+creator: Lconfident
+modified: 20220710104602202
+modifier: Lconfident
+tags: 符号数学基础
+title: Taylor级数展开
+type: text/vnd.tiddlywiki
+
+taylor(S)返回符号表达式S中默认的独立变量的6阶的Maclurin多项式的近似式
+
+taylor(S,n,v)表示变量v在0点的n-1阶展开
+
+taylor(S,n,v,a)表示变量v在a点的n-1阶展开

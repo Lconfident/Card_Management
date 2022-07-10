@@ -1,0 +1,16 @@
+created: 20220710093810319
+creator: Lconfident
+modified: 20220710094422552
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号函数的微分函数diff()
+type: text/vnd.tiddlywiki
+
+* diff(S):对S的默认变量求微分
+* diff(S,v):对关于v求微分
+* diff(S,v,n):表示S对v求n阶导数
+* diff(S,n):表示S对默认变量求n阶导数
+
+其中S为符号表达式，v为自变量，n为微分次数
+
+[img[diff.png]]

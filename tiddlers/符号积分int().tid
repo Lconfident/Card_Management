@@ -1,0 +1,16 @@
+created: 20220710094420369
+creator: Lconfident
+modified: 20220710094958272
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号积分int()
+type: text/vnd.tiddlywiki
+
+* int (S):求S关于默认变量的不定积分
+* int (S,v)
+* int (S,v,a,b)
+* int (S,a,b)
+
+其中S被积分符号表达式，v为积分自变量，a为积分下限，b为积分上限
+
+[img[int.png]]

@@ -1,0 +1,24 @@
+created: 20220710104604392
+creator: Lconfident
+modified: 20220710105749885
+modifier: Lconfident
+tags: 符号数学基础
+title: 符号方程组的求解
+type: text/vnd.tiddlywiki
+
+* 求解函数solve:
+
+g=solve (eq)对默认自变量 求eq=0的解
+
+g=solve(eq,v)表示求方程eq=0关于变量v的解
+
+g=solve(q1,q2...,qn,v1,v2...,vn)表示方程组：q1=0,q2=0,..,qn=0关于变量：v1,v2,...,vn的解
+
+* 微分方程的求解dsolve：
+r=dsolve('eq1','eq2',...,'cond1','cond2',...'v')
+
+计算符号常微分方程：eq1、eq2...，方程1，方程2，cond1、cond2...为初值或边界条件，v为变量
+
+大写字母D表示1次微分，D2表示2次微分
+
+[img[dsolve.png]]
