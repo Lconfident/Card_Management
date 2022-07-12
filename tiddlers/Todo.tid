@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220710123310003
+modified: 20220712104602046
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -17,9 +17,9 @@ type: text/vnd.tiddlywiki
 
 <<sticky-done "7.10" " Completed: 2022-07-10 8:32 下午 ">>：学习通矩阵运算+突击课第二节论文知识
 
-<<sticky "7.11">>：学习通数值运算基础+突击课matlab的使用一半
+<<sticky-done "7.11" " Completed: 2022-07-12 6:27 下午 ">>：学习通数值运算基础+突击课matlab的使用一半
 
-<<sticky "7.12">>：学习通符号运算基础+突击课matlab学完
+<<sticky-done "7.12" " Completed: 2022-07-12 6:46 下午 ">>：学习通符号运算基础+突击课matlab学完
 
 <<sticky "7.13">>：学习通matlab常用绘图功能的学习
 
