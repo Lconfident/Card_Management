@@ -1,0 +1,11 @@
+created: 20220713072013232
+creator: Lconfident
+modified: 20220713072235523
+modifier: Lconfident
+tags: 常用绘图
+title: 复数绘图
+type: text/vnd.tiddlywiki
+
+plot（）绘制时，通常情况下要忽略虚部。
+
+但只有一个复变量参数z时，绘制图形为实部对于虚部的关系图

@@ -1,0 +1,15 @@
+created: 20220713074406610
+creator: Lconfident
+modified: 20220713074711366
+modifier: Lconfident
+tags: 绘制特殊函数
+title: 绘制饼图
+type: text/vnd.tiddlywiki
+
+1.pie(x)
+
+2.pie(x,explode),explode 为一个与x尺寸相同且只有元素0、1组成的矩阵，其中的1表示将x中对应元素的扇区从饼图中分离出来
+
+3.h=pie(...)句柄
+
+4.pie3(...)三维饼图

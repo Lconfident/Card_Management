@@ -1,8 +1,15 @@
 color: #6a9ee2
 created: 20220710110733287
 creator: Lconfident
-modified: 20220710110759680
+modified: 20220713075423851
 modifier: Lconfident
 tags: Matlab
 title: 常用绘图
 type: text/vnd.tiddlywiki
+
+* 绘制二维函数
+*多重曲线绘图
+*复数绘图
+*绘制表面图及渲染
+*图的控制与表现
+* 图形的标注

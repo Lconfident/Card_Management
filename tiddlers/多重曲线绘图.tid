@@ -1,0 +1,15 @@
+created: 20220713072238066
+creator: Lconfident
+modified: 20220713072803409
+modifier: Lconfident
+tags: 常用绘图
+title: 多重曲线绘图
+type: text/vnd.tiddlywiki
+
+1. plot(x,y)x或y为矩阵，或均为矩阵
+
+2.plot(x1,y1,x2,y2...)参数均为矢量
+
+3.双y轴绘图
+
+[img[036.png]]

@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220712104602046
+modified: 20220713082217484
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -21,7 +21,7 @@ type: text/vnd.tiddlywiki
 
 <<sticky-done "7.12" " Completed: 2022-07-12 6:46 下午 ">>：学习通符号运算基础+突击课matlab学完
 
-<<sticky "7.13">>：学习通matlab常用绘图功能的学习
+<<sticky-done "7.13" " Completed: 2022-07-13 3:14 下午 ">>：学习通matlab常用绘图功能的学习
 
 <<sticky "7.14">>：编程二人完成突击课4相关算法学习+负责论文的同学熟悉论文的编写
 

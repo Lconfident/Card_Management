@@ -1,0 +1,17 @@
+created: 20220713074714638
+creator: Lconfident
+modified: 20220713075159291
+modifier: Lconfident
+tags: 绘制特殊函数
+title: 绘制其他图形
+type: text/vnd.tiddlywiki
+
+1. 直方图hist(y)
+
+2.杆状图形stem(x,y)
+
+3.阶梯图stairs(t,f)
+
+4.色彩分散点图scatterr(x,y)气泡图
+
+[img[041.png]]

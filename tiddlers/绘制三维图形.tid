@@ -1,0 +1,23 @@
+created: 20220713075206436
+creator: Lconfident
+modified: 20220713080031639
+modifier: Lconfident
+tags: 常用绘图
+title: 绘制三维图形
+type: text/vnd.tiddlywiki
+
+plot3(x1,y1,z1,x2,y2,z2...)
+
+生成三维绘图数据的函数
+
+1.meshgrid()
+
+[img[042.png]]
+
+2.peaks()
+
+[img[043.png]]
+
+3.mash()
+
+[img[044.png]]

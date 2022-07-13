@@ -1,0 +1,26 @@
+created: 20220713073621655
+creator: Lconfident
+modified: 20220713074403486
+modifier: Lconfident
+tags: 绘制特殊函数
+title: 绘制条形图
+type: text/vnd.tiddlywiki
+
+1. bar(y)
+
+2.bar(x,y)，按x中指定位置绘制y中每一行的元素的条形
+
+3.bar(...,width)设置临近条形的宽度
+
+4.bar(...,'style')指定条形的类型，style由两个选项：
+
+* stack
+* group
+
+5.bar(...,LineSpec)用LineSpec指定颜色绘制条图
+
+6.bar(...)水平条形图
+
+7.bar3(...)三维垂直条形图
+
+8.bar3h(...)三维水平条形图

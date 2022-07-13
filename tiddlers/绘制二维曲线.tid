@@ -1,0 +1,17 @@
+created: 20220713071543253
+creator: Lconfident
+modified: 20220713075243580
+modifier: Lconfident
+tags: 常用绘图
+title: 绘制二维曲线
+type: text/vnd.tiddlywiki
+
+1.plot(y)
+
+2.plot(x1,y1,x2,y2)，同时绘制由(x1,y1)、(x2,y2)、...所确定的多条曲线
+
+3.plot(x,y,LineSpec,...)按照LineSpec所定义的线型、标记点和颜色绘图
+
+4.plot(...,'PropertyName','PropertyValue')为图形设置属性
+
+5.h=plot(...)返回图像的句柄h

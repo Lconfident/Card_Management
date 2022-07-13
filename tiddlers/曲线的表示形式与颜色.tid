@@ -1,0 +1,23 @@
+created: 20220713072806303
+creator: Lconfident
+modified: 20220713073550703
+modifier: Lconfident
+tags: 常用绘图
+title: 曲线的表示形式与颜色
+type: text/vnd.tiddlywiki
+
+[img[038.png]]
+[img[037.png]]
+
+设置图线形式的一般格式为：
+
+(1) plot(x,y,'类型符号')
+(2) plot(x1,y1,‘类型符号1’，x2,y2,'类型符号2')
+
+plot(t,y1,'-',t,y2'-.')
+
+[img[039.png]]
+
+颜色使用：
+
+[img[040.png]]

@@ -1,0 +1,23 @@
+created: 20220713075252515
+creator: Lconfident
+modified: 20220713080920829
+modifier: Lconfident
+tags: 常用绘图
+title: 绘制表面图及表面渲染
+type: text/vnd.tiddlywiki
+
+surf()绘制着色表面图的基本方法
+
+surfc()绘制带有等高线的着色表面图
+
+surfl()可控制表面图的光照效果。
+
+调用格式与mash()类似	
+
+[img[045.png]]
+
+[img[046.png]]
+
+[img[047.png]]
+
+[img[048.png]][img[049.png]]
