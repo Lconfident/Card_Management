@@ -1,0 +1,44 @@
+created: 20220715104238418
+creator: Lconfident
+modified: 20220715121945665
+modifier: Lconfident
+tags: matlab算法
+title: 非线性规划
+type: text/vnd.tiddlywiki
+
+有限的条件下，最大的收益
+
+*线性规划：所有变量都是一次方
+*非线性规划：''至少一个变量不是一次方''
+**题目提到“怎么安排/分配”“尽量多（少）”“利润最大”“最合理”；但变量非一次方
+**投资规划：总收益''率''最大/最佳投资方案
+**角度调整：飞机方向角、电影院仰角，涉及三角函数，为非线性
+**生产安排：目标函数或约束条件含有非线性变量
+*例：min f(x) = x<sub>1</sub><sup>2</sup>+x<sub>2</sub><sup>2</sup>+x<sub>3</sub><sup>2</sup>+8
+
+<<<
+x<sub>1</sub><sup>2</sup>-x<sub>2</sub><sup>2</sup>+x<sub>3</sub><sup>2</sup>>=0
+
+x<sub>1</sub>+x<sub>2</sub><sup>2</sup>+x<sub>3</sub><sup>2</sup><=20
+
+-x<sub>1</sub>+x<sub>2</sub><sup>2</sup>+2=0
+
+x<sub>2</sub>+2x<sub>3</sub><sup>2</sup>=3
+
+x<sub>1</sub>+x<sub>2</sub>+x<sub>3</sub>>=0
+<<<
+
+* 函数求解：
+**[x,fval] = fmincon(fun,x0,A,bAeq,beq,lb,ub,nonlcon)
+**x得到决策变量值，fval得到最优解取值
+|!fun|单独函数文件里定义的目标函数 |
+|!x0|决策变量的初始值，实在不行就随便写个数 |
+|!A,b|''线性''约束的''不等式''变量系数矩阵和常量项矩阵（''都是<=''）|
+|!Aeq,beq|''线性''约束的''等式''变量系数矩阵和常量项矩阵|
+|!lb,ub|决策变量的最小取值和最大取值 |
+|!nonlcon|''非线性''约束，包括''不等式和等式''|
+
+*本题：设好fun和nonlcon函数文件以及其他参数后，执行：
+*[x,y] = fmincon('fun1',[0;0;0],[],[],[],[],[0;0;0],[],'fun2')
+
+
