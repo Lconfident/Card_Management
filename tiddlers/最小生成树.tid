@@ -1,0 +1,22 @@
+created: 20220716105956459
+creator: Lconfident
+modified: 20220716114844155
+modifier: Lconfident
+tags: matlab算法
+title: 最小生成树
+type: text/vnd.tiddlywiki
+
+连通所有顶点且总路径最小
+
+[img[070.png]]
+
+最小生成树的求解
+
+*matlab的minspantree函数求解
+
+*Kruskal算法
+**1. 把图G中的所有边全部去掉，得到所有单独的顶点V构成图T=(V,{})，其中V是顶点集合
+**2.从G中取出当前''权值最小''的边，如果改变假如T的边集合后T不形成回路，则加入T；否则舍弃
+**3.重复第2步，直到T中有n-1条边（n是定点数）
+**3.第2步中遇到两条权值相同的最小权值边，任选一条即可，所以最小生成树可能不唯一，但权值之和相同
+*适合''点多边少''的图
