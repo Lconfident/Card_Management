@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220715130819746
+modified: 20220717001521970
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -13,16 +13,26 @@ type: text/vnd.tiddlywiki
 
 数学建模任务清单
 
-<<sticky-done "7.9" " Completed: 2022-07-09 11:22 上午 ">>：学习通matlab概论+突击课第一节
+<<sticky "7.17">>：突击课上下册剩余算法内容
 
-<<sticky-done "7.10" " Completed: 2022-07-10 8:32 下午 ">>：学习通矩阵运算+突击课第二节论文知识
+<<sticky "7.18">>：链接中的讲座19点
 
-<<sticky-done "7.11" " Completed: 2022-07-12 6:27 下午 ">>：学习通数值运算基础+突击课matlab的使用一半
+<<sticky "7.19">>：休息
 
-<<sticky-done "7.12" " Completed: 2022-07-12 6:46 下午 ">>：学习通符号运算基础+突击课matlab学完
+<<sticky "7.20">>: 完成学习通剩余内容
 
-<<sticky-done "7.13" " Completed: 2022-07-13 3:14 下午 ">>：学习通matlab常用绘图功能的学习
+<<sticky "7.21">>：链接讲座19点
 
-<<sticky "7.14">>：编程二人完成突击课4相关算法学习+负责论文的同学熟悉论文的编写
+<<sticky "7.22">>：学习通商人过河+钢管下料
 
-<<sticky "7.15">>：编程二人完成学习通第六章程序基础和算法+负责论文的同学熟悉论文的编写
+<<sticky "7.23">>：休息
+
+<<sticky "7.24">>：链接讲座19点
+
+<<sticky "7.25">>：总结除写作部分外学习通上的实例问题
+
+<<sticky "7.26">>：学习通建模实例第六节内容
+
+<<sticky "7.27">>：休息
+
+<<sticky "7.28">>：之后实际训练

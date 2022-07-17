@@ -1,0 +1,49 @@
+created: 20220717034344590
+creator: Lconfident
+modified: 20220717051409261
+modifier: Lconfident
+tags: matlab算法
+title: 层次分析法
+type: text/vnd.tiddlywiki
+
+Analytic Hierarchy Process(AHP)
+
+[img[085.png]]
+
+*可能的结果或方案：5位均有可能，即有5种方案
+模型建立
+[img[086.png]]
+
+问题？
+
+[img[087png.png]]
+
+[img[088.png]]
+
+判断矩阵
+
+[img[089.png]]
+
+不一致现象
+
+[img[090.png]]
+
+一致性检验
+
+[img[091.png]]
+
+求出一致性比例
+[img[092.png]]
+[img[093.png]]
+
+计算权重
+[img[094.png]]
+
+问题求解
+[img[095.png]]
+
+模型回顾
+[img[096.png]]
+
+普遍问题
+[img[097.png]]
