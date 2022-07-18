@@ -1,6 +1,6 @@
 created: 20220718152800346
 creator: Lconfident
-modified: 20220718162507913
+modified: 20220718164721036
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词02
@@ -14,4 +14,5 @@ type: text/vnd.tiddlywiki
 # stylesheet：外部样式表
 # scale：规模、尺度
 # viewport:视窗
+# margin：边缘
 
