@@ -1,7 +1,7 @@
 color: #b89ce3
 created: 20220718100652876
 creator: Lconfident
-modified: 20220718124942214
+modified: 20220718130444016
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词
@@ -23,5 +23,6 @@ wysiwyg: yes
 # href:hypertext reference,超文本引用
 # rank：n.等级
 # subtion：n.段
-# 
+# syntax：n.语法
+# caption：n.标题
 
