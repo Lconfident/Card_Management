@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220717001521970
+modified: 20220718032603442
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -13,7 +13,7 @@ type: text/vnd.tiddlywiki
 
 数学建模任务清单
 
-<<sticky "7.17">>：突击课上下册剩余算法内容
+<<sticky-done "7.17" " Completed: 2022-07-18 11:21 上午 ">>：突击课上下册剩余算法内容
 
 <<sticky "7.18">>：链接中的讲座19点
 
