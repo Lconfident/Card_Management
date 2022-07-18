@@ -1,7 +1,7 @@
 color: #b89ce3
 created: 20220718100652876
 creator: Lconfident
-modified: 20220718135246999
+modified: 20220718142200692
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词
@@ -27,4 +27,7 @@ wysiwyg: yes
 # caption：n.标题
 # hint：提示
 # placeholder：占位符
+# radio：收音机，按钮按一个其他，就会弹起，因此用作单选按钮
+# label：标签
+# entire：整个
 
