@@ -1,10 +1,14 @@
 created: 20220718152800346
 creator: Lconfident
-modified: 20220718152834074
+modified: 20220718155312948
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词02
 type: text/vnd.tiddlywiki
+wysiwyg: yes
 
-# 
+# descendant：后代
+# meta：元
+# specify：指定
+# property：属性
 
