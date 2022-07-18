@@ -1,12 +1,11 @@
 color: #b89ce3
 created: 20220718100652876
 creator: Lconfident
-modified: 20220718145445914
+modified: 20220718152753078
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词01
 type: text/vnd.tiddlywiki
-wysiwyg: yes
 
 # nest：v.嵌套
 # element：n.元素
@@ -35,5 +34,5 @@ wysiwyg: yes
 # directory/folder：文件夹
 # file：文件
 # checkbox：复选框
-# 
+# render：呈现
 
