@@ -1,6 +1,6 @@
 created: 20220718152800346
 creator: Lconfident
-modified: 20220719022557008
+modified: 20220719023631062
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词02
@@ -20,4 +20,6 @@ wysiwyg: yes
 # typography：版式
 # margin：边缘
 # grey：灰色
+# pseudo：伪
+# hover：悬停
 
