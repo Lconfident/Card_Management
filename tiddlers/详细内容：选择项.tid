@@ -1,0 +1,22 @@
+created: 20220719132736411
+creator: Lconfident
+modified: 20220719133034988
+modifier: Lconfident
+tags: 搭建个人网站
+title: 详细内容：选择项
+type: text/vnd.tiddlywiki
+
+"""
+Add some space between the .inline elements and the label text, by giving a right margin of 0.5em. Also, set all the other margin to 0.
+
+将标题置于表单元素上方select {
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+单选和多选按钮内联，且留有空白
+.inline {
+  width: unset;
+  margin: 0 0.5em 0  0;
+
+}
+"""
