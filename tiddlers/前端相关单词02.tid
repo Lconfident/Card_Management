@@ -1,6 +1,6 @@
 created: 20220718152800346
 creator: Lconfident
-modified: 20220719102328011
+modified: 20220719104936560
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词02
@@ -28,5 +28,10 @@ wysiwyg: yes
 # gradient：梯度，渐变
 # argument：参数
 # opacity：不透明度
+# solid：实线
+# alpha channel：α通道，透明通道
+# pixel：像素
+# blur：模糊
+# blurRadius：模糊半径
 # 
 
