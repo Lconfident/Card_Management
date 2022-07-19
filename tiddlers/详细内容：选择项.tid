@@ -1,6 +1,6 @@
 created: 20220719132736411
 creator: Lconfident
-modified: 20220719133034988
+modified: 20220719133525202
 modifier: Lconfident
 tags: 搭建个人网站
 title: 详细内容：选择项
@@ -19,4 +19,5 @@ Add some space between the .inline elements and the label text, by giving a righ
   margin: 0 0.5em 0  0;
 
 }
+注意表单元素的边距border颜色
 """

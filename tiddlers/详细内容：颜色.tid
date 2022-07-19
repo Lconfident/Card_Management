@@ -1,6 +1,6 @@
 created: 20220719111007636
 creator: Lconfident
-modified: 20220719123036616
+modified: 20220719134851298
 modifier: Lconfident
 tags: 搭建个人网站
 title: 详细内容：颜色
@@ -12,6 +12,6 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: #1b1b32;
+  background-color: #3b3b4f;
 	color: #f5f6f7;
 }
