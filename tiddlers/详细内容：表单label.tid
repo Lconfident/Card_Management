@@ -1,6 +1,6 @@
 created: 20220719120402857
 creator: Lconfident
-modified: 20220719123130549
+modified: 20220719130304478
 modifier: Lconfident
 tags: 搭建个人网站
 title: 详细内容：表单label
@@ -16,3 +16,5 @@ label{
 }
 
 input是单标签，必填写required
+
+表单提交服务器要写name
