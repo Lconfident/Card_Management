@@ -1,10 +1,11 @@
 created: 20220718152800346
 creator: Lconfident
-modified: 20220718164721036
+modified: 20220719022557008
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词02
 type: text/vnd.tiddlywiki
+wysiwyg: yes
 
 # descendant：后代
 # meta：元
@@ -15,4 +16,8 @@ type: text/vnd.tiddlywiki
 # scale：规模、尺度
 # viewport:视窗
 # margin：边缘
+# italic：斜体的
+# typography：版式
+# margin：边缘
+# grey：灰色
 
