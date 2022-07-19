@@ -1,6 +1,6 @@
 created: 20220718152800346
 creator: Lconfident
-modified: 20220719091514096
+modified: 20220719100113010
 modifier: Lconfident
 tags: 单词扩展
 title: 前端相关单词02
@@ -24,4 +24,8 @@ wysiwyg: yes
 # hover：悬停
 # shorthand：速记
 # multiple：多个，倍数
+# hex：十六进制
+# gradient：梯度，渐变
+# argument：参数
+# 
 
