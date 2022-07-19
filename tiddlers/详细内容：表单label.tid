@@ -1,0 +1,18 @@
+created: 20220719120402857
+creator: Lconfident
+modified: 20220719123130549
+modifier: Lconfident
+tags: 搭建个人网站
+title: 详细内容：表单label
+type: text/vnd.tiddlywiki
+
+表单中的fieldset中label
+
+label{
+
+  display:block;
+  margin:0.5rem 0;
+	
+}
+
+input是单标签，必填写required
