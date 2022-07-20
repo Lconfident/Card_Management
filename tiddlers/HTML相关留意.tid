@@ -1,14 +1,12 @@
 created: 20220720131320554
 creator: Lconfident
-modified: 20220720154752557
+modified: 20220720163541272
 modifier: Lconfident
 tags: 搭建个人网站
 title: HTML相关留意
 type: text/vnd.tiddlywiki
 
-"""
-input是单标签，必填项写required
-表单提交服务器要写name
-注意表单元素的边距border颜色
-790px的宽度预览
-"""
+* input是单标签，必填项写required
+* 表单提交服务器要写name
+* 注意表单元素的边距border颜色
+* 790px的宽度预览
