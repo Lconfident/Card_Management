@@ -1,0 +1,19 @@
+created: 20220720075545757
+creator: Lconfident
+modified: 20220720080757280
+modifier: Lconfident
+tags: M文件及程序设计基础
+title: 数据文件
+type: text/vnd.tiddlywiki
+
+1. 以.mat为扩展名的二进制文件。可同时存储各种不同类型的数据，并通过save和load进行直接存取。
+
+2. 以.txt、.dat为扩展名的ASCII码文件。只能存储数值型数据，由save和load存取。文件名即为工作空间中的变量名。
+
+3. 以.bmp、.jpg、.tif等为扩展名的图像文件。使用函数imread()和imwrite()读入和存储。
+
+4.以.wav为扩展名的声音文件。使用函数wavread()和wavwrite()读入和存储。
+
+[img[114.png]]
+
+Import Wizard数据输入向导

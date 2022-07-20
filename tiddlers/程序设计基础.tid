@@ -1,0 +1,113 @@
+created: 20220720080809906
+creator: Lconfident
+modified: 20220720085015496
+modifier: Lconfident
+tags: M文件及程序设计基础
+title: 程序设计基础
+type: text/vnd.tiddlywiki
+
+!条件语句
+!!`if-end`语句
+
+```matlab
+x=a;
+if x<b
+		x=b;
+end
+```
+
+!!`if-else-end`语句
+
+```matlab
+x=10;
+if x<b
+	x=b;
+else
+	x=a;
+end
+```
+
+!!`if-elseif-end`语句
+
+```matlab
+if x<=0
+	y=0;
+elseif x<=1
+	y=x;
+else
+	y=1;
+end
+```
+
+!循环语句
+
+!!`for-end`语句
+
+语法：
+
+```matlab
+for v=m:s:n%或者fot v=st,st为向量，v是各元素的值
+end%v是变量，m为初值，s是步长，不写就是1，n是终值
+```
+
+计算1<sup>2</sup>+2<sup>2</sup>+...+n<sup>2</sup>
+
+```matlab
+S=0;
+for k=1:n
+	S=k^2+S;
+end
+```
+
+!!`while-end`语句
+
+语法：
+
+```matlab
+while 条件表达式
+	循环体语句
+end
+```
+计算
+1!,2!,...,n!,直到n!<100 0000为止
+
+```matlab
+n=1,t=1;
+while t<1e6
+	X(n)=t;
+	n=n+1;
+	t=t*n;
+end
+X
+```
+
+!分支语句
+!!`switch-case-end`语句
+
+```matlab
+switch fix(n/10)%fix为向0方向取整
+		case 10
+			source='满分';
+		case 9
+			source='优秀';
+		case 8
+			source='良好';
+		case{6,7}
+			source='及格';
+		otherwise
+			source='不及格';
+end
+```
+
+!非结构性流程控制语句
+!!continue语句
+从执行点跳过循环体中剩余的语句，直接进入下一循环
+
+!!break语句
+提前终止循环，执行循环体外的下一行语句；若为嵌套，只跳出本层循环
+
+!!return语句
+终止当前的命令序列，返回调用的函数或键盘
+
+!!检测语句`try-catch-end`
+[img[115.png]]

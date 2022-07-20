@@ -1,0 +1,39 @@
+created: 20220720072654800
+creator: Lconfident
+modified: 20220720074428267
+modifier: Lconfident
+tags: M文件及程序设计基础
+title: M文件
+type: text/vnd.tiddlywiki
+
+命令M-文件是命令语句和函数调用语句的组合
+
+命令语句可直接调用工作空间中的已有的变量或创建新的变量，命令文件运行结束后，新创建的变量人保存在工作空间中。
+
+函数M-文件是以function语句为引导的M文件。
+
+右三部分组成：
+
+1. 函数定义行
+
+```matlab
+function[x,y,z]=sphere(theta,phi,rho)
+%对于函数定义行，输入参数为theta,phi,rho，输出参数为x,y,z，函数名为sphere，该函数文件的文件名为”sphere.m“
+```
+
+2.帮助文本
+
+帮助文本在函数定义行与函数体之间，每行均以%打头，主要是介绍函数是干嘛的
+
+3.函数体
+
+程序代码
+
+* 全局变量
+
+```matlab
+global A,B,C%通常是大写字母
+```
+
+命令文件与函数文件的比较
+[img[111.png]]

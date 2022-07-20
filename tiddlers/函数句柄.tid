@@ -1,0 +1,31 @@
+created: 20220720085018321
+creator: Lconfident
+modified: 20220720103156616
+modifier: Lconfident
+tags: M文件及程序设计基础
+title: 函数句柄
+type: text/vnd.tiddlywiki
+
+[img[116.png]]
+
+!!创建函数句柄及显示其相关信息（调用函数functions())
+
+```matlab
+hdl1=@plot;%创建函数句柄
+func1=functions(hdl1);%查看句柄信息,记得functions加-s
+```
+
+函数句柄和其内容都是结构数组
+
+!!函数句柄的调用和操作
+语法：
+
+```matlab
+[y1,y2...,yn]=feval(fhandle,x1,x2..,xn)%其功能是执行函数句柄fhandle，使用的输入参数是x1,x2,..,xn，函数返回值为y1,y2...yn，
+```
+
+[img[118.png]]
+
+!!函数句柄和函数名转换
+[img[119.png]]
+[img[120.png]]

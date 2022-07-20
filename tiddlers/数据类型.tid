@@ -1,0 +1,21 @@
+created: 20220720074455453
+creator: Lconfident
+modified: 20220720075530394
+modifier: Lconfident
+tags: M文件及程序设计基础
+title: 数据类型
+type: text/vnd.tiddlywiki
+
+[img[112.png]]
+
+保存数据：
+
+```matlab
+save data A B C%将A，B，C存入data.mat文件中
+```
+
+读取数据：
+
+```matlab
+load data A B C%从data.mat文件中读取A，B，C
+```
