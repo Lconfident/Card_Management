@@ -1,6 +1,6 @@
 created: 20220720131149746
 creator: Lconfident
-modified: 20220720143150799
+modified: 20220720145107570
 modifier: Lconfident
 tags: 搭建个人网站
 title: CSS相关留意
@@ -8,5 +8,5 @@ type: text/vnd.tiddlywiki
 
 """
 外边距margin推动盒子方向
-font-family=Arial;CSS里字体设定是等于
+font-family:Arial;字体系列
 """
