@@ -1,6 +1,6 @@
 created: 20220721003627838
 creator: Lconfident
-modified: 20220721003903812
+modified: 20220721030809716
 modifier: Lconfident
 tags: 搭建个人网站
 title: CSS相关留意
@@ -23,3 +23,6 @@ type: text/vnd.tiddlywiki
 * logo纵横比：`aspect-radio:36/4;padding:0.4rem;`
 * h1的字体颜色只写color，字体大小写font-size
 * `nav > li`指所有父类是nav的li：`justify-content:space-evenly`指间隔空白均匀
+* display：flex；指忽略内容，使子元素都有相同长度，导航栏里面好用
+* label有个for元素，可以连接input
+* fieldset的legend可以设置标题
