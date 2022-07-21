@@ -1,6 +1,6 @@
 created: 20220720131320554
 creator: Lconfident
-modified: 20220721005147838
+modified: 20220721113132245
 modifier: Lconfident
 tags: 搭建个人网站
 title: HTML相关留意
@@ -14,4 +14,4 @@ type: text/vnd.tiddlywiki
 * `<meta name="viewport" content="width=device-width, initial-scale=1">`,后面空一格
 * 提交按钮的链接是action:"网址";必须在form里定义
 * method规定如何提交表单数据的，get名称/值对的形式附加到 URL 中，绝不要使用 GET 来发送敏感数据！（在 URL 中是可见的）希望加入书签的表单提交有用。post附加到 HTTP 请求的 body 内，数据不显示在 URL 中，通过 POST 提交的表单不能加入书签。
-* 
+* 提交按钮的文本写value，type写submit`<input  type="submit" value="Submit"/>`
