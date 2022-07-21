@@ -1,6 +1,6 @@
-created: 20220720131149746
+created: 20220721003627838
 creator: Lconfident
-modified: 20220720163525407
+modified: 20220721003903812
 modifier: Lconfident
 tags: 搭建个人网站
 title: CSS相关留意
@@ -13,9 +13,13 @@ type: text/vnd.tiddlywiki
 * 图片间距：margin-top:8px;padding:0 4px;这样外部顶边距为8px，内部填充为4px
 * 圆角border-radius:10px;
 * 设置一条实线，上边界，外边距只留上下，不留左右
+
 ```css
 .divider {
   border-bottom: 1px solid #888989;
   margin: 2px 0;
 }
 ```
+* logo纵横比：`aspect-radio:36/4;padding:0.4rem;`
+* h1的字体颜色只写color，字体大小写font-size
+* `nav > li`指所有父类是nav的li：`justify-content:space-evenly`指间隔空白均匀
