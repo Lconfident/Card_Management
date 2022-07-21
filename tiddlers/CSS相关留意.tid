@@ -1,6 +1,6 @@
 created: 20220721003627838
 creator: Lconfident
-modified: 20220721140826321
+modified: 20220721143546223
 modifier: Lconfident
 tags: 搭建个人网站
 title: CSS相关留意
@@ -45,3 +45,4 @@ nav>ul>li:hover{
 **当前导航栏，.active{背景颜色;}
 **固定在顶部，position：fixed;
 *margin：auto；上右下左自动对齐
+*输入框和标签对其，display：inline-block；
