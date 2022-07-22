@@ -1,7 +1,7 @@
 color: #5de2f4
 created: 20220721003627838
 creator: Lconfident
-modified: 20220722020426101
+modified: 20220722145732584
 modifier: Lconfident
 tags: 搭建个人网站
 title: CSS相关留意
@@ -50,3 +50,15 @@ nav>ul>li:hover{
 *平滑导航`*{
   scroll-behavior:smooth;
 }`
+*Font Awesome 是一套绝佳的图标字体库和CSS框架。
+
+*Font Awesome 字体为您提供可缩放矢量图标,它可以被定制大小、颜色、阴影以及任何可以用CSS的样式。
+
+*要使用Font Awesome图标，请在HTML页面的 部分中添加以下行：
+```
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">	
+```
+*使用格式
+```
+<i class="fa fa-car" style="font-size:60px;color:red;"></i>
+```
