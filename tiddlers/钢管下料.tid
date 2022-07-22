@@ -1,0 +1,53 @@
+created: 20220722115911104
+creator: Lconfident
+modified: 20220722122616405
+modifier: Lconfident
+tags: Matlab实训
+title: 钢管下料
+type: text/vnd.tiddlywiki
+
+!问题描述及解决
+[img[gg01.png]]
+[img[gg02.png]]
+
+!!切割模式
+
+[img[gg03.png]]
+
+合理切割模式
+[img[gg04.png]]
+
+节省的两种标准：
+
+# 原料钢管剩余''总余量''最小
+# 所用原料钢管''总根数''最少
+
+!!总余量最少
+
+[img[gg05.png]]
+
+!!总根数最少
+
+[img[gg06.png]]
+
+!一般问题
+
+[img[gg07.png]]
+
+!!列生成算法
+
+[img[gg08.png]]
+[img[gg09.png]]
+[img[gg10.png]]
+[img[gg11.png]]
+[img[gg12.png]]
+[img[gg13.png]]
+[img[gg14.png]]
+
+实例
+
+[img[gg15.png]]
+[img[gg16.png]]
+[img[gg17.png]]
+[img[gg18.png]]
+[img[gg19.png]]

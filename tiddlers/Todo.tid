@@ -1,6 +1,6 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220722064233157
+modified: 20220722122713795
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
@@ -23,7 +23,7 @@ type: text/vnd.tiddlywiki
 
 <<sticky-done "7.21" " Completed: 2022-07-22 9:11 上午 ">>：链接讲座19点
 
-<<sticky "7.22">>：学习通商人过河+钢管下料
+<<sticky-done "7.22" " Completed: 2022-07-22 7:49 下午 ">>：学习通商人过河+钢管下料
 
 <<sticky "7.23">>：休息
 

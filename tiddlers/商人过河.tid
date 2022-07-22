@@ -1,6 +1,6 @@
 created: 20220722092307742
 creator: Lconfident
-modified: 20220722100607444
+modified: 20220722115003527
 modifier: Lconfident
 tags: Matlab实训
 title: 商人过河
@@ -46,5 +46,143 @@ type: text/vnd.tiddlywiki
 !!matlab源码
 
 ```matlab
+function river(m,n,k,t)
+%输入m个商人n个仆人若仆人比商人多t个则不安全
+%小船每次至多载k个人不能空载
 
+if n-m >= t
+    disp('仆人人数比商人多t个，无法安全渡河！');
+    return;
+end
+
+%生成安全状态矩阵
+st = zeros(m+1,n+1);%安全矩阵
+len = 0;
+for i=0:m
+    for j=0:n
+        %判断状态（i，j）是否为安全状态
+        if i==0||i==m||(j-i<t&&i-j<t+m-n)
+            st(i+1,j+1)=1;
+            len = len+1;
+        end
+    end
+end
+
+%将安全状态矩阵转换为安全状态列表
+stlist = zeros(2*len,3);%安全状态列表,3个变量x,y,z
+
+len = 1;%stlist的下标从1开始
+for i=0:m
+    for j=0:n
+        if st(i+1,j+1)==1
+            stlist(len,1)=i;
+            stlist(len,2)=j;
+            stlist(len,3)=1;
+            len=len+1;
+        end
+    end
+end
+for i=0:m
+    for j=0:n
+        if st(i+1,j+1)==1
+            stlist(len,1)=i;
+            stlist(len,2)=j;
+            stlist(len,3)=0;
+            len=len+1;
+        end
+    end
+end
+
+len=len-1;
+%生成一个决策矩阵
+juece = zeros(m+1,n+1);
+for i=0:m
+    for j=0:n
+    %判断状态（i，j）是不是不超载的决策
+        if (i+j<=k&&i+j>1)
+        juece(i+1,j+1)=1;
+        end
+    end
+end
+
+%生成状态转移二部图的邻接矩阵
+mygraph=zeros(len,len);
+for  i=1:len
+    for j=1:len
+        x1=stlist(i,1);
+        y1=stlist(i,2);
+        z1=stlist(i,3);
+        x2=stlist(j,1);
+        y2=stlist(j,2);
+        z2=stlist(j,3);
+        if z1==z2
+            continue;
+        end
+        if z1==1
+            a=x1-x2;
+            b=y1-y2;
+        else
+            a=x2-x1;
+            b=y2-y1;
+        end
+        if a>=0 && b>=0 && juece(a+1,b+1)==1%满足决策矩阵条件
+            mygraph(i,j)=1;
+        end
+    end
+end
+
+%广度优先搜索
+state=zeros(1,len);%各个节点的状态，0表示未发现
+queue = zeros(1,len+1);%申请一个数组作为队列
+prevtx = zeros(1,len+1);%申请一个数组保存前序列
+head=1;tail=1;
+start=len/2;
+stopvtx=start+1;
+queue(tail)=start;  
+state(start)=1;
+tail=2;
+success=0;
+while head<tail%是否为空状态
+    if queue(head)==stopvtx%是否到达终点
+        success=1;
+        break;  
+    end
+    current = queue(head);
+    for j=1:len
+        if mygraph(current,j)==1 &&     state(j)==0
+            queue(tail)=j;
+            prevtx(tail)=head;%记录前序节点
+            tail=tail+1;%移动
+            state(j)=1;%更新状态
+        end
+    end
+    head=head+1;
+end
+if success==0
+    disp('无法实现渡河!');
+else
+    path=zeros(1,len);
+    path(1)=queue(head);%将终点作为首个
+    len=2;%找前序节点
+    current=head;
+    while queue(current)~=start
+        current=prevtx(current);
+        path(len)=queue(current);
+        len=len+1;
+    end
+    total=0;
+    for i=len-1:-1:1
+        total=total+1;
+        temp=path(i);
+        if i==len-1
+            st=sprintf('(%d,%d,%d)',stlist(temp,1),stlist(temp,2),stlist(temp,3));
+        else
+            st=sprintf('->(%d,%d,%d)',stlist(temp,1),stlist(temp,2),stlist(temp,3));
+        end
+        disp(st);
+        if mod(total,5)~=0 && total~=len-1
+            fprintf('%c',8);
+        end
+    end
+end
 ```
