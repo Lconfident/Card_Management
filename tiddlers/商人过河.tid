@@ -1,0 +1,50 @@
+created: 20220722092307742
+creator: Lconfident
+modified: 20220722100607444
+modifier: Lconfident
+tags: Matlab实训
+title: 商人过河
+type: text/vnd.tiddlywiki
+
+!问题描述及解决
+
+[img[river01.png]]
+
+!!多阶段决策
+
+[img[river02.png]]
+
+!!安全状态生成
+
+[img[river03.png]]
+
+!!决策集合的生成
+
+[img[river04.png]]
+
+!!安全状态图的建立
+
+[img[river05.png]]
+
+! 实例：m=n=3,k=2,t=1
+
+[img[river06.png]]
+
+状态转移图
+
+[img[river07.png]]
+
+!!广度优先搜索
+
+[img[river08.png]]
+[img[river09.png]]
+
+!!最优方案
+
+[img[river10.png]]
+
+!!matlab源码
+
+```matlab
+
+```
