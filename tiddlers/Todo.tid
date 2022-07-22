@@ -1,12 +1,12 @@
 created: 20220616055747221
 creator: Lconfident
-modified: 20220722011152685
+modified: 20220722064233157
 modifier: Lconfident
 tags: 知识管理系统
 title: Todo
 type: text/vnd.tiddlywiki
 
-<table ><tbody ><tr class="evenRow"><th > 内容</th><th >链接</th></tr><tr class="oddRow"><th > C++学习</th><th align="center">[ext[C++Prime|https://www.aliyundrive.com/drive/folder/62aa9ff771a3028f21234b9ca5be1d3ea9b8e05a]]</th></tr><tr class="evenRow"><th > 数据结构与算法学习</th><th align="left">[ext[邓公课程|https://www.xuetangx.com/learn/THU08091000384/THU08091000384/10322765/video/17436871?channel=i.area.learn_title]] [ext[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]]</th></tr><tr class="oddRow"><th >数模</th><th >[ext[学习通|https://mooc1.chaoxing.com/mycourse/studentstudy?chapterId=551159339&courseId=224198044&clazzid=54309418&cpi=197066763&enc=9c15a39a916db1531fc988f17bd240fc&mooc2=1&openc=2c22a772a296a80d4271d4680aaffeff]][[北海哔哩哔哩|https://www.bilibili.com/video/BV1Rq4y1S7S8?p=29&spm_id_from=pageDriver&vd_source=4fe602163e123a42d52b1a7672e94c9a]]</th></tr></tbody></table>
+<table ><tbody ><tr class="evenRow"><th > 内容</th><th >链接</th></tr><tr class="oddRow"><th > C++学习</th><th align="center">[ext[C++Prime|https://www.aliyundrive.com/drive/folder/62aa9ff771a3028f21234b9ca5be1d3ea9b8e05a]]</th></tr><tr class="evenRow"><th > 数据结构与算法学习</th><th align="left">[ext[邓公课程|https://www.xuetangx.com/learn/THU08091000384/THU08091000384/10322765/video/17436871?channel=i.area.learn_title]] [ext[数据结构与算法分析C++版|https://www.aliyundrive.com/drive/folder/62aaa6cc534b9cb01cfd4be691728205eaa79d23]]</th></tr><tr class="oddRow"><th >数模</th><th >[ext[学习通|https://mooc1.chaoxing.com/mycourse/studentstudy?chapterId=505189914&courseId=222206998&clazzid=54307969&cpi=197066763&enc=d1d635466d43262f5720cce5bc8457e4&mooc2=1&openc=8ffb26a4cd916455b2c8dd8529c28800]][[北海哔哩哔哩|https://www.bilibili.com/video/BV1Rq4y1S7S8?p=29&spm_id_from=pageDriver&vd_source=4fe602163e123a42d52b1a7672e94c9a]]</th></tr></tbody></table>
 <<reuse-tiddler "Todo List">>
 
 <<details label:近期工作 src:近期工作 labelClass:"bg-secondary text-white">>
