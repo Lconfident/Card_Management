@@ -1,0 +1,20 @@
+color: #de2121
+created: 20220723120034502
+creator: Lconfident
+modified: 20220723140426197
+modifier: Lconfident
+tags: 搭建个人网站
+title: header
+type: text/vnd.tiddlywiki
+
+直接给顶部一个bar，里面有[[白天黑夜模式按钮|https://codepen.io/jkantner/pen/eYygqJm]]转换和一个[[三横杠|https://codepen.io/sanketbodke/pen/qBXBOgb]]呼出侧边栏，然后浮动到右边
+
+左上角：[[XXX的个人网页|https://yuguo.us/]]
+
+侧边栏里有主页、推荐、书架、课程和关于的选项。
+
+中间是一行字
+
+下面还有一行字
+
+最下面是一个箭头
