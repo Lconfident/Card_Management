@@ -1,13 +1,13 @@
 created: 20220714054746607
 creator: Lconfident
-modified: 20220722020346676
+modified: 20220723010413601
 modifier: Lconfident
 tags: 预计要做的事 Web前端
 title: 搭建个人网站
 type: text/vnd.tiddlywiki
 
 * codepen：收藏
-*打开网站的开始是一个悬浮网页
+*打开网站的开始是一个悬浮网页==>header
 * 两种夜景与日光转换的开关==>右上角
 *弹窗显示的切换方式==>右上角
 * 个人博客界面==>左边
